@@ -1,16 +1,16 @@
 {
   "system": {
-    "timestamp": 20220120161933,
+    "timestamp": 20220120185054,
     "components": [
       {
         "component": "SAP_ABA",
-        "release": "750",
+        "release": "702",
         "extrelease": "0021",
         "comp_type": "S"
       },
       {
         "component": "SAP_BASIS",
-        "release": "750",
+        "release": "702",
         "extrelease": "0021",
         "comp_type": "S"
       }
@@ -20,12 +20,12 @@
     {
       "object": "CLAS",
       "obj_name": "/IWBEP/CX_GATEWAY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "/UI2/CL_JSON",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -100,7 +100,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_CORRESPONDING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -255,7 +255,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_PARALLEL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -285,7 +285,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_RANDOM_INT8",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -420,7 +420,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_TESTDOUBLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -480,7 +480,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_APJ_JT_CHECK_BASE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -650,17 +650,17 @@
     {
       "object": "CLAS",
       "obj_name": "CL_CMIS_CONSTANTS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_CMIS_OBJECT_FACTORY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_CMIS_PROPERTY_IDS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -1950,7 +1950,7 @@
     {
       "object": "CLAS",
       "obj_name": "CM_APJ_BASE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2110,17 +2110,17 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ACO_APPLICATION_EXCEPTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_ACO_COMMUNICATION_FAILURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_ACO_SYSTEM_FAILURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2135,32 +2135,32 @@
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_CREATION_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_DBPROC_CREATE_FAILED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_EXECUTION_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_EXECUTION_FAILED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_VERSION_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_VERSION_MISMATCH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2180,12 +2180,12 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ATD_EXCEPTION_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_ATD_PARAM_NOT_FOUND",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2270,7 +2270,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_BAL_EXCEPTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2290,7 +2290,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_BLE_RUNTIME_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2325,82 +2325,82 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_CONSTRAINT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_CONTENT_ALREADY_EXISTS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_FILTER_NOT_VALID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_INVALID_ARGUMENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_NAME_CONSTRAINT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_NOT_SUPPORTED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_OAUTH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_OBJECT_NOT_FOUND",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_PERMISSION_DENIED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_ROOT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_RUNTIME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_STORAGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_STREAM_NOT_SUPPORTED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_UNAUTHORIZED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_UPDATE_CONFLICT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_VERSIONING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2410,7 +2410,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CORR_DYN_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2640,7 +2640,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ST_DYNAMIC_CALL_ST_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2720,12 +2720,12 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SWF_CPWF_API",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_SWF_CPWF_CALLBACK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2865,7 +2865,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_CONVERSION_NO_ENUM_VALUE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3085,7 +3085,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_ITAB_LINE_NOT_FOUND",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3120,7 +3120,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_NO_REFERENCE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3195,12 +3195,12 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_RTTI_NO_CHECK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_SY_RTTI_SYNTAX_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3235,7 +3235,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_SQL_UNSUPPORTED_FEATURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3345,7 +3345,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_TSTMP_INTERNAL_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -4030,7 +4030,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_CURRENCY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4040,7 +4040,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_CURRENCYTEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4240,12 +4240,12 @@
     {
       "object": "DDLS",
       "obj_name": "I_LANGUAGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_LANGUAGETEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4400,7 +4400,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4410,12 +4410,12 @@
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASUREDIMENSION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASUREDIMENSIONTEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4440,7 +4440,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASURETEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4470,7 +4470,7 @@
     {
       "object": "DOMA",
       "obj_name": "ABAP_BOOLEAN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DOMA",
@@ -6050,7 +6050,7 @@
     {
       "object": "DTEL",
       "obj_name": "CMIS_DECIMAL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6060,32 +6060,32 @@
     {
       "object": "DTEL",
       "obj_name": "CMIS_ENUM",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "CMIS_ID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "CMIS_LONG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "CMIS_REPOSITORY_ID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "CMIS_STRING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "CONFIG_DEPRECATION_CODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6635,7 +6635,7 @@
     {
       "object": "DTEL",
       "obj_name": "SDRAFT_UUID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6675,12 +6675,12 @@
     {
       "object": "DTEL",
       "obj_name": "SWF_CPWF_CONSUMER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "SWF_CPWF_HANDLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6955,7 +6955,7 @@
     {
       "object": "DTEL",
       "obj_name": "SYSUUID_C36",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7555,7 +7555,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_DATA_TYPE_HANDLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7615,37 +7615,37 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_TESTDOUBLE_ANSWER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_TESTDOUBLE_ARGUMENTS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_TESTDOUBLE_CONFIG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_TESTDOUBLE_HANDLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_TESTDOUBLE_MATCHER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_TESTDOUBLE_RESULT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_TESTDOUBLE_VERIFY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7680,7 +7680,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_ACO_PROXY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7690,7 +7690,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_AMDP_MARKER_HDB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7705,7 +7705,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_APJ_JT_CHECK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7715,7 +7715,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_APJ_TYPES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7900,7 +7900,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_CMIS_CLIENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8410,7 +8410,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_OO_ADT_CLASSRUN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8520,12 +8520,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_SLIN_BADI_DBTAB_ACCESS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SLIN_GOV_DBTAB_ACCESS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8535,12 +8535,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CPWF_API",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CPWF_CALLBACK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8555,7 +8555,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CP_JSON",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8635,7 +8635,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_SYSTEM_UUID_RFC4122_STATIC",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8645,7 +8645,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_T100_DYN_MSG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -12970,12 +12970,12 @@
     {
       "object": "TABL",
       "obj_name": "AUTHFIELD_VALS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "AUTHORIZATION_FOR_OBJECT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -13220,207 +13220,207 @@
     {
       "object": "TABL",
       "obj_name": "CMIS_S_ACE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_ACL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_ACL_CAPABILITIES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_ALLOWABLE_ACTIONS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CAPABILITIES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CHANGE_EVENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CHOICE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CLIENT_PROPERTY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CNT_DLVRY_NFO",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CONTENT_RAW",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CONTENT_STREAM",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_DATE_TIME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_EXTENDED_FEATURES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_EXTENSION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_ID_AND_CHANGE_TOKEN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_IMPL_CAP",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_KEY_VALUE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_KEY_VALUES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_OBJECT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_OBJECT_CONTAINER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_OBJECT_IN_FOLDER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_OBJECT_IN_FOLDER_LIST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_OBJECT_LIST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_OBJECT_PARENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_PERMISSION_DEFINITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_PERMISSION_MAPPING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_PRINCIPAL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_PROPERTIES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_PROPERTY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_PROPERTY_DEFINITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_PROPERTY_VALUE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_QUERY_RESULT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_QUERY_RESULT_LIST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_RELATIONSHIP",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_RENDITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_REPOSITORY_INFO",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_TYPE_CONTAINER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_TYPE_DEFINITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_TYPE_LIST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_TYPE_MUTABILITY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "CMIS_S_TYPE_SET_ATTR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -13590,12 +13590,12 @@
     {
       "object": "TTYP",
       "obj_name": "AUTHORIZATION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "AUTHORIZATION_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -13640,152 +13640,152 @@
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_ACE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_BOOLEAN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_CHOICE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_CLIENT_PROPERTY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_DATE_TIME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_DECIMAL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_ENUM",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_EXTENDED_FEATURES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_EXTENSION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_ID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_ID_AND_CHANGE_TOKEN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_KEY_VALUES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_LONG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_MAP",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_OBJECT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_OBJECT_CONTAINER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_OBJECT_IN_FOLDER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_OBJECT_PARENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_PERMISSION_DEFINITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_PERMISSION_MAPPING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_PROPERTY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_PROPERTY_DEFINITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_PROPERTY_VALUE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_QUERY_RESULT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_RELATIONSHIP",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_RENDITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_REPOSITORY_INFO",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_STRING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_TYPE_CONTAINER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_TYPE_DEFINITION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -13820,7 +13820,7 @@
     {
       "object": "TTYP",
       "obj_name": "ROLE_AUTHORIZATIONS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
