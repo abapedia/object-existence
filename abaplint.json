@@ -814,7 +814,7 @@
       "severity": "Error"
     },
     "unsecure_fae": {
-      "exclude": [],
+      "exclude": [".*"],
       "severity": "Error"
     },
     "unused_ddic": {
