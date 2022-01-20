@@ -7,7 +7,6 @@ PARAMETERS:
 
 TYPES:
   BEGIN OF ty_system,
-    sysid      TYPE sy-sysid,
     timestamp  TYPE timestamp,
     components TYPE SORTED TABLE OF cvers WITH UNIQUE DEFAULT KEY,
   END OF ty_system,
@@ -106,7 +105,6 @@ CLASS lcl_check IMPLEMENTATION.
   METHOD system.
 
     GET TIME STAMP FIELD rs_system-timestamp.
-    rs_system-sysid = sy-sysid.
 
     SELECT * FROM cvers INTO TABLE rs_system-components
       WHERE component = 'SAP_BASIS' OR component = 'SAP_ABA'.
