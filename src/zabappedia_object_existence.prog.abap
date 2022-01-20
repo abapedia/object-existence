@@ -65,10 +65,10 @@ CLASS lcl_check IMPLEMENTATION.
       lv_data TYPE string,
       lo_json TYPE REF TO zcl_abapgit_ajson.
 
-    CALL FUNCTION 'GUI_UPLOAD'
+    cl_gui_frontend_services=>gui_upload(
       EXPORTING
         filename                = iv_file
-      TABLES
+      CHANGING
         data_tab                = lt_data
       EXCEPTIONS
         file_open_error         = 1
@@ -87,7 +87,9 @@ CLASS lcl_check IMPLEMENTATION.
         dp_out_of_memory        = 14
         disk_full               = 15
         dp_timeout              = 16
-        OTHERS                  = 17.
+        not_supported_by_gui    = 17
+        error_no_gui            = 18
+        OTHERS                  = 19 ).
     IF sy-subrc <> 0.
       zcx_abapgit_ajson_error=>raise( 'Upload error' ).
     ENDIF.
@@ -96,9 +98,7 @@ CLASS lcl_check IMPLEMENTATION.
 
     lo_json = zcl_abapgit_ajson=>parse( lv_data ).
 
-    lo_json->to_abap(
-      IMPORTING
-        ev_container = rs_data ).
+    lo_json->to_abap( IMPORTING ev_container = rs_data ).
 
   ENDMETHOD.
 
@@ -106,8 +106,8 @@ CLASS lcl_check IMPLEMENTATION.
 
     GET TIME STAMP FIELD rs_system-timestamp.
 
-    SELECT * FROM cvers INTO TABLE rs_system-components
-      WHERE component = 'SAP_BASIS' OR component = 'SAP_ABA'.
+    SELECT component release extrelease FROM cvers INTO CORRESPONDING FIELDS OF TABLE rs_system-components
+      WHERE component = 'SAP_BASIS' OR component = 'SAP_ABA' ##SUBRC_OK.
 
   ENDMETHOD.
 
@@ -117,17 +117,17 @@ CLASS lcl_check IMPLEMENTATION.
 
     FIELD-SYMBOLS <ls_tadir> LIKE LINE OF it_tadir.
 
+    rt_tadir = it_tadir.
+
     IF it_tadir IS INITIAL.
       zcx_abapgit_ajson_error=>raise( 'Empty object list' ).
     ENDIF.
-
-    rt_tadir = it_tadir.
 
     SELECT * FROM tadir INTO CORRESPONDING FIELDS OF TABLE lt_tadir
       FOR ALL ENTRIES IN it_tadir
       WHERE pgmid = 'R3TR' AND object = it_tadir-object AND obj_name = it_tadir-obj_name.
 
-    IF lt_tadir IS INITIAL.
+    IF sy-subrc <> 0.
       zcx_abapgit_ajson_error=>raise( 'No objects found' ).
     ENDIF.
 
@@ -135,11 +135,7 @@ CLASS lcl_check IMPLEMENTATION.
       READ TABLE lt_tadir TRANSPORTING NO FIELDS WITH TABLE KEY
         object   = <ls_tadir>-object
         obj_name = <ls_tadir>-obj_name.
-      IF sy-subrc = 0.
-        <ls_tadir>-exists = abap_true.
-      ELSE.
-        <ls_tadir>-exists = abap_false.
-      ENDIF.
+      <ls_tadir>-exists = boolc( sy-subrc = 0 ).
     ENDLOOP.
 
   ENDMETHOD.
@@ -169,7 +165,7 @@ CLASS lcl_check IMPLEMENTATION.
       sub  = '<release>'
       with = |{ sy-saprl }| ).
 
-    CALL METHOD cl_gui_frontend_services=>gui_download
+    cl_gui_frontend_services=>gui_download(
       EXPORTING
         filename                = lv_file
       CHANGING
@@ -198,7 +194,7 @@ CLASS lcl_check IMPLEMENTATION.
         control_flush_error     = 21
         not_supported_by_gui    = 22
         error_no_gui            = 23
-        OTHERS                  = 24.
+        OTHERS                  = 24 ).
     IF sy-subrc <> 0.
       zcx_abapgit_ajson_error=>raise( 'Download error' ).
     ENDIF.
