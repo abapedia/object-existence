@@ -19,13 +19,13 @@
 REPORT zabapedia_object_existence.
 
 SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME.
-PARAMETERS:
-  p_repo   TYPE string LOWER CASE DEFAULT 'steampunk-2305-api'.
+  PARAMETERS
+    p_repo   TYPE string LOWER CASE DEFAULT 'steampunk-2305-api'.
 SELECTION-SCREEN END OF BLOCK b1.
 SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME.
-PARAMETERS:
-  p_path   TYPE string LOWER CASE DEFAULT 'C:\Temp\',
-  p_file_o TYPE string LOWER CASE DEFAULT 'on_prem_<release>.json'.
+  PARAMETERS:
+    p_path   TYPE string LOWER CASE DEFAULT 'C:\Temp\',
+    p_file_o TYPE string LOWER CASE DEFAULT 'on_prem_<release>.json'.
 SELECTION-SCREEN END OF BLOCK b2.
 
 TYPES:
@@ -54,19 +54,19 @@ CLASS lcl_check DEFINITION.
         IMPORTING
           iv_repo        TYPE string
         RETURNING
-          value(rs_data) TYPE ty_check
+          VALUE(rs_data) TYPE ty_check
         RAISING
           zcx_abapgit_ajson_error,
 
       system
         RETURNING
-          value(rs_system) TYPE ty_check-system,
+          VALUE(rs_system) TYPE ty_check-system,
 
       compare
         IMPORTING
           it_tadir        TYPE ty_check-object_list
         RETURNING
-          value(rt_tadir) TYPE ty_check-object_list
+          VALUE(rt_tadir) TYPE ty_check-object_list
         RAISING
           zcx_abapgit_ajson_error,
 
@@ -87,16 +87,14 @@ CLASS lcl_check IMPLEMENTATION.
       lv_url      TYPE string,
       lv_data     TYPE string,
       lv_object   TYPE string,
-      lt_objects TYPE string_table,
+      lt_objects  TYPE string_table,
       ls_object   TYPE ty_tadir,
       li_agent    TYPE REF TO zif_abapgit_http_agent,
       li_response TYPE REF TO zif_abapgit_http_response,
       li_json     TYPE REF TO zif_abapgit_ajson,
       lx_error    TYPE REF TO zcx_abapgit_exception.
 
-    FIELD-SYMBOLS <ls_object> LIKE LINE OF rs_data-object_list.
-
-    lv_url   = |https://raw.githubusercontent.com/abapedia/{ iv_repo }/main/src/_status.json|.
+    lv_url = |https://raw.githubusercontent.com/abapedia/{ iv_repo }/main/src/_status.json|.
 
     li_agent = zcl_abapgit_factory=>get_http_agent( ).
 
