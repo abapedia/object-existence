@@ -1,9 +1,32 @@
-REPORT zabappedia_object_existence.
+**********************************************************************
+* abapedia object existence
+*
+* Reads the list of release objects for a given Steampunk release from
+* the corresponding repository on abapedia
+* https://github.com/orgs/abapedia/repositories?q=steampunk
+*
+* For example, for Steampunk 2305, the following file is used:
+* https://github.com/abapedia/steampunk-2305-api/blob/main/src/_status.json
+*
+* The list of objects is filtered by status = "RELEASED" and compared
+* to the objects existing in this system. Objects with status =
+* "DEPRECATED" are ignored.
+*
+* The result of the comparison is then saved as a JSON file.
+* The JSON file can then be uploaded for use in abapedia.org to
+* https://github.com/abapedia/object-existence/tree/main/json
+**********************************************************************
+REPORT zabapedia_object_existence.
 
+SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME.
+PARAMETERS:
+  p_repo   TYPE string LOWER CASE DEFAULT 'steampunk-2305-api'.
+SELECTION-SCREEN END OF BLOCK b1.
+SELECTION-SCREEN BEGIN OF BLOCK b2 WITH FRAME.
 PARAMETERS:
   p_path   TYPE string LOWER CASE DEFAULT 'C:\Temp\',
-  p_file_i TYPE string LOWER CASE DEFAULT 'steampunk_2111.json',
   p_file_o TYPE string LOWER CASE DEFAULT 'on_prem_<release>.json'.
+SELECTION-SCREEN END OF BLOCK b2.
 
 TYPES:
   BEGIN OF ty_system,
@@ -29,21 +52,21 @@ CLASS lcl_check DEFINITION.
     METHODS:
       load
         IMPORTING
-          iv_file        TYPE string
+          iv_repo        TYPE string
         RETURNING
-          VALUE(rs_data) TYPE ty_check
+          value(rs_data) TYPE ty_check
         RAISING
           zcx_abapgit_ajson_error,
 
       system
         RETURNING
-          VALUE(rs_system) TYPE ty_check-system,
+          value(rs_system) TYPE ty_check-system,
 
       compare
         IMPORTING
           it_tadir        TYPE ty_check-object_list
         RETURNING
-          VALUE(rt_tadir) TYPE ty_check-object_list
+          value(rt_tadir) TYPE ty_check-object_list
         RAISING
           zcx_abapgit_ajson_error,
 
@@ -61,44 +84,54 @@ CLASS lcl_check IMPLEMENTATION.
   METHOD load.
 
     DATA:
-      lt_data TYPE string_table,
-      lv_data TYPE string,
-      lo_json TYPE REF TO zcl_abapgit_ajson.
+      lv_url      TYPE string,
+      lv_data     TYPE string,
+      lv_object   TYPE string,
+      lt_objects TYPE string_table,
+      ls_object   TYPE ty_tadir,
+      li_agent    TYPE REF TO zif_abapgit_http_agent,
+      li_response TYPE REF TO zif_abapgit_http_response,
+      li_json     TYPE REF TO zif_abapgit_ajson,
+      lx_error    TYPE REF TO zcx_abapgit_exception.
 
-    cl_gui_frontend_services=>gui_upload(
-      EXPORTING
-        filename                = iv_file
-      CHANGING
-        data_tab                = lt_data
-      EXCEPTIONS
-        file_open_error         = 1
-        file_read_error         = 2
-        no_batch                = 3
-        gui_refuse_filetransfer = 4
-        invalid_type            = 5
-        no_authority            = 6
-        unknown_error           = 7
-        bad_data_format         = 8
-        header_not_allowed      = 9
-        separator_not_allowed   = 10
-        header_too_long         = 11
-        unknown_dp_error        = 12
-        access_denied           = 13
-        dp_out_of_memory        = 14
-        disk_full               = 15
-        dp_timeout              = 16
-        not_supported_by_gui    = 17
-        error_no_gui            = 18
-        OTHERS                  = 19 ).
-    IF sy-subrc <> 0.
-      zcx_abapgit_ajson_error=>raise( 'Upload error' ).
-    ENDIF.
+    FIELD-SYMBOLS <ls_object> LIKE LINE OF rs_data-object_list.
 
-    CONCATENATE LINES OF lt_data INTO lv_data SEPARATED BY cl_abap_char_utilities=>newline.
+    lv_url   = |https://raw.githubusercontent.com/abapedia/{ iv_repo }/main/src/_status.json|.
 
-    lo_json = zcl_abapgit_ajson=>parse( lv_data ).
+    li_agent = zcl_abapgit_factory=>get_http_agent( ).
 
-    lo_json->to_abap( IMPORTING ev_container = rs_data ).
+    TRY.
+        li_response = li_agent->request( lv_url ).
+
+        lv_data = li_response->cdata( ).
+
+      CATCH zcx_abapgit_exception INTO lx_error.
+        zcx_abapgit_ajson_error=>raise( lx_error->get_text( ) ).
+    ENDTRY.
+
+    lv_data = replace(
+      val  = lv_data
+      sub  = '/'
+      with = '#'
+      occ  = 0 ).
+
+    li_json = zcl_abapgit_ajson=>parse( lv_data ).
+
+    lt_objects = li_json->members( '/' ).
+
+    LOOP AT lt_objects INTO lv_object.
+      IF li_json->get( |/{ lv_object }/status| ) = 'RELEASED'.
+        CLEAR ls_object.
+        SPLIT to_upper( lv_object ) AT ',' INTO ls_object-object ls_object-obj_name.
+
+        ls_object-obj_name = replace(
+          val  = ls_object-obj_name
+          sub  = '#'
+          with = '/'
+          occ  = 0 ).
+        INSERT ls_object INTO TABLE rs_data-object_list.
+      ENDIF.
+    ENDLOOP.
 
   ENDMETHOD.
 
@@ -107,7 +140,7 @@ CLASS lcl_check IMPLEMENTATION.
     GET TIME STAMP FIELD rs_system-timestamp.
 
     SELECT component release extrelease FROM cvers INTO CORRESPONDING FIELDS OF TABLE rs_system-components
-      WHERE component = 'SAP_BASIS' OR component = 'SAP_ABA' ##SUBRC_OK.
+      WHERE component = 'SAP_BASIS' OR component = 'SAP_ABA' ##SUBRC_OK ##TOO_MANY_ITAB_FIELDS.
 
   ENDMETHOD.
 
@@ -125,7 +158,7 @@ CLASS lcl_check IMPLEMENTATION.
 
     SELECT * FROM tadir INTO CORRESPONDING FIELDS OF TABLE lt_tadir
       FOR ALL ENTRIES IN it_tadir
-      WHERE pgmid = 'R3TR' AND object = it_tadir-object AND obj_name = it_tadir-obj_name.
+      WHERE pgmid = 'R3TR' AND object = it_tadir-object AND obj_name = it_tadir-obj_name ##TOO_MANY_ITAB_FIELDS.
 
     IF sy-subrc <> 0.
       zcx_abapgit_ajson_error=>raise( 'No objects found' ).
@@ -215,7 +248,7 @@ START-OF-SELECTION.
   CREATE OBJECT go_check.
 
   TRY.
-      gs_check_in = go_check->load( p_path && p_file_i ).
+      gs_check_in = go_check->load( p_repo ).
 
       gs_check_out-system = go_check->system( ).
 
