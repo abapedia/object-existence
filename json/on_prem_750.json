@@ -1,22 +1,42 @@
 {
   "system": {
-    "timestamp": 20220120161933,
+    "timestamp": "2023-08-09T21:18:01Z",
     "components": [
       {
         "component": "SAP_ABA",
         "release": "750",
         "extrelease": "0021",
-        "comp_type": "S"
+        "comp_type": ""
       },
       {
         "component": "SAP_BASIS",
         "release": "750",
         "extrelease": "0021",
-        "comp_type": "S"
+        "comp_type": ""
       }
     ]
   },
   "object_list": [
+    {
+      "object": "CLAS",
+      "obj_name": "/DMO/CX_RAP_GENERATOR",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "/IWBEP/CL_CP_FACTORY_REMOTE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "/IWBEP/CL_CP_FACTORY_UNIT_TST",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "/IWBEP/CX_CP_REMOTE",
+      "exists": false
+    },
     {
       "object": "CLAS",
       "obj_name": "/IWBEP/CX_GATEWAY",
@@ -24,13 +44,18 @@
     },
     {
       "object": "CLAS",
-      "obj_name": "/UI2/CL_JSON",
-      "exists": true
+      "obj_name": "/IWXBE/CL_GENERIC_CONS_DESCRIP",
+      "exists": false
     },
     {
       "object": "CLAS",
-      "obj_name": "CL_A4C_BC_FACTORY",
+      "obj_name": "/IWXBE/CX_EXCEPTION",
       "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "/UI2/CL_JSON",
+      "exists": true
     },
     {
       "object": "CLAS",
@@ -45,6 +70,11 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_API_STATE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_ABAP_BEHAVIOR_EVENT_HANDLER",
       "exists": false
     },
     {
@@ -214,7 +244,17 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_ABAP_ITAB_C_WRITER",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_ABAP_ITAB_X_READER",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_ABAP_ITAB_X_WRITER",
       "exists": true
     },
     {
@@ -239,7 +279,17 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_ABAP_MEMORY_C_WRITER",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_ABAP_MEMORY_X_READER",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_ABAP_MEMORY_X_WRITER",
       "exists": true
     },
     {
@@ -399,6 +449,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_ABAP_STRING_C_WRITER",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_ABAP_STRING_UTILITIES",
       "exists": true
     },
@@ -409,8 +464,18 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_ABAP_STRING_X_WRITER",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_ABAP_STRUCTDESCR",
       "exists": true
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_ABAP_STRUCT_UTILITIES",
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -494,8 +559,8 @@
     },
     {
       "object": "CLAS",
-      "obj_name": "CL_AUNIT_ASSERT",
-      "exists": true
+      "obj_name": "CL_APS_BC_SCOPE_CHANGE_API",
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -544,6 +609,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_BALI_ITEM_FILTER",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_BALI_LOG",
       "exists": false
     },
@@ -565,11 +635,6 @@
     {
       "object": "CLAS",
       "obj_name": "CL_BALI_OBJECT_HANDLER",
-      "exists": false
-    },
-    {
-      "object": "CLAS",
-      "obj_name": "CL_BAL_LOGGING",
       "exists": false
     },
     {
@@ -599,12 +664,32 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_BCS_MAIL_SYSTEM_CONFIG",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_BCS_MAIL_TEXTPART",
       "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_BLE_API_MT_TENANT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_BOTD_MOCKEMLAPI_BLDRFACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_BOTD_MOCKEMLAPI_BO_TEST_ENV",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_BOTD_TXBUFDBL_BO_TEST_ENV",
       "exists": false
     },
     {
@@ -629,6 +714,16 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_CDS_TEST_ENVIRONMENT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_CHDO_DELETE_TOOLS",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_CHDO_OBJECT_TOOLS_REL",
       "exists": false
     },
@@ -644,7 +739,42 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_CI_ATC_ASSISTANT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_CI_ATC_DATA_PROVIDER",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_CI_ATC_FINDING_DETAILS",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_CI_ATC_QUICKFIXES",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_CI_ATC_QUICKFIX_CONTEXT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_CI_ATC_UNIT_DRIVER",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_CMIS_CLIENT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_CMIS_CLIENT_FACTORY2",
       "exists": false
     },
     {
@@ -664,7 +794,22 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_COM_ARRANGEMENT_BADI",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_COM_ARRANGEMENT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_COM_SCENARIO_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_COM_SYSTEM_FACTORY",
       "exists": false
     },
     {
@@ -704,6 +849,26 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_FDT_CP_UTILITY_API",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_FDT_OBJ_SYSTEM_VARIABLES",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_FHC_CALENDAR_ID_MAPPER",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_FHC_CALENDAR_RUNTIME",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_FP_ADS_UTIL",
       "exists": false
     },
@@ -720,6 +885,11 @@
     {
       "object": "CLAS",
       "obj_name": "CL_FUNCTION_TEST_ENVIRONMENT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_GSM_API_TEST",
       "exists": false
     },
     {
@@ -759,6 +929,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_MAIL_ADDRESS",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_MESSAGE_HELPER",
       "exists": true
     },
@@ -775,21 +950,6 @@
     {
       "object": "CLAS",
       "obj_name": "CL_NUMBERRANGE_RUNTIME",
-      "exists": false
-    },
-    {
-      "object": "CLAS",
-      "obj_name": "CL_NUMBER_RANGE_INTERVALS",
-      "exists": false
-    },
-    {
-      "object": "CLAS",
-      "obj_name": "CL_NUMBER_RANGE_OBJECTS",
-      "exists": false
-    },
-    {
-      "object": "CLAS",
-      "obj_name": "CL_NUMBER_RANGE_RUNTIME",
       "exists": false
     },
     {
@@ -814,12 +974,37 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_PRINT_QUEUE_UTILS",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_PROXY_CLIENT",
       "exists": true
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_RAP_EVENT_TEST_ENVIRONMENT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_RFC_DESTINATION_PROVIDER",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_RSPO_PDF_MERGER",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_SATC_API",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_SATC_API_CHECK_VARIANT",
       "exists": false
     },
     {
@@ -894,12 +1079,22 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_WEB_HTTP_SERVER_UTILITY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_WEB_HTTP_UTILITY",
       "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_WEB_ODATA_CLIENT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_WS_PROTOCOL_FACTORY",
       "exists": false
     },
     {
@@ -999,7 +1194,37 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_AO_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_AO_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_AO_O_REMOTE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_AO_PARAMETER_KIND",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_AO_PARAMETER_KIND_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_AO_TYPING_METHOD",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_AO_VERSION",
       "exists": false
     },
     {
@@ -1189,6 +1414,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_CDS_PROVIDER_CONTRACT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_CP_ADT_SIMPLE_CLASSRUN",
       "exists": false
     },
@@ -1210,6 +1440,21 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_CP_AMDP_DB_TYPE_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_AMDP_OPTION_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_AO_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_AO_VERSION_F",
       "exists": false
     },
     {
@@ -1264,6 +1509,36 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_CP_CDS_PRVDR_CNTRCT_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_CS_FMT_ADT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_CS_LP_METHOD",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_DBT_LOAD_UNIT_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_DBT_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_DBT_STORAGE_TYPE_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_CP_DDEF_ENT_TEXT_ATTR_F",
       "exists": false
     },
@@ -1289,12 +1564,52 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_CP_DOMA_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_CP_DOMA_TEXT_ATTR_F",
       "exists": false
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_CP_DTEL_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_CP_DTEL_TEXT_ATTR_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_EB_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_EB_VERSION_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_FG_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_FM_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_FM_STATE_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_GEN_DDLS_TEMPLATE_FC",
       "exists": false
     },
     {
@@ -1330,6 +1645,11 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_CP_GEN_TTYP_TEMPLATE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_IAM_BC_TXT_ATTR_F",
       "exists": false
     },
     {
@@ -1374,7 +1694,47 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_CP_SRVB_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_SRVB_VERSION_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_SRVC_CONSUMPN_TYPE_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_SRVC_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_SRVC_VERSION_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_SRVD_ORIGIN_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_SRVD_VERSION_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_CP_TAB_FIELD_PROPERTY_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_TAB_ORIGIN_FACTORY",
       "exists": false
     },
     {
@@ -1415,6 +1775,36 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_CP_TR_RESOLUTION_FCTRY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_XLSX_COORDINATE_FCT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_XLSX_RA_VT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CP_XLSX_WA_VT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CS_FORMAT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CS_LINE_NUMBER_FLAVOR",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_CS_LINE_PATTERN",
       "exists": false
     },
     {
@@ -1489,12 +1879,32 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_DBT_LOAD_UNIT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_DBT_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_DBT_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_DBT_SIZE_CATEGORY",
       "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_DBT_SIZE_CATEGORY_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_DBT_STORAGE_TYPE",
       "exists": false
     },
     {
@@ -1559,12 +1969,22 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_DOMAIN_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_DOMAIN_OUTPUT_STYLE",
       "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_DOMAIN_OUTPUT_STYLE_F",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_DOMAIN_O_LOCAL",
       "exists": false
     },
     {
@@ -1579,12 +1999,62 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_DTEL_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_DTEL_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_DTEL_TEXT",
       "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_DTEL_TEXT_ATTRIBUTE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_EB_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_EB_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_EB_VERSION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_FG_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_FG_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_FM_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_FM_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_FM_STATE",
       "exists": false
     },
     {
@@ -1620,6 +2090,11 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_GEN_DDLS_BP_PARAM_DTYPE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_GEN_DDLS_BP_PRVD_CNTRCT",
       "exists": false
     },
     {
@@ -1665,6 +2140,26 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_GEN_TTYP_BP_ROW_TYPE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_IAM_BC_CONTENT_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_IAM_BC_TEXT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_IAM_BC_TEXT_ATTRIBUTE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_IAM_BC_TYPE",
       "exists": false
     },
     {
@@ -1759,6 +2254,56 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_SRVB_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVB_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVB_VERSION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVC_CONSUMPTION_TYPE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVC_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVC_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVC_VERSION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVD_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVD_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_SRVD_VERSION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_TAB_EC_0",
       "exists": false
     },
@@ -1844,6 +2389,16 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_TAB_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_TAB_O_LOCAL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CL_XCO_TAB_PSL_FKFA_SCENARIO",
       "exists": false
     },
@@ -1870,6 +2425,11 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_TP_TEXT_ATTRIBUTE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CL_XCO_TR_ES_BUILDER",
       "exists": false
     },
     {
@@ -1949,6 +2509,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CL_XCO_XLSX_COORDINATE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CM_APJ_BASE",
       "exists": true
     },
@@ -1975,11 +2540,6 @@
     {
       "object": "CLAS",
       "obj_name": "CX_A4C_DEST_SVC_LOOKUP_FAILURE",
-      "exists": false
-    },
-    {
-      "object": "CLAS",
-      "obj_name": "CX_A4C_RAP_QUERY_PROVIDER",
       "exists": false
     },
     {
@@ -2269,11 +2829,6 @@
     },
     {
       "object": "CLAS",
-      "obj_name": "CX_BAL_EXCEPTION",
-      "exists": true
-    },
-    {
-      "object": "CLAS",
       "obj_name": "CX_BCFG_TRANSPORT_RECORDER",
       "exists": false
     },
@@ -2285,6 +2840,16 @@
     {
       "object": "CLAS",
       "obj_name": "CX_BCS_MAIL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_BCS_MAIL_CONFIG",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_BLE_DYNAMIC_TABLE_ERROR",
       "exists": false
     },
     {
@@ -2304,6 +2869,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CX_CHDO_DELETE_ERROR",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CX_CHDO_GENERATION_ERROR",
       "exists": false
     },
@@ -2315,6 +2885,21 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CHDO_WRITE_ERROR",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_CI_ATC_CHECK_INVALID_ATTR",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_CI_ATC_INVALID_COMP_UNIT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_CI_ATC_TOKEN_NO_CALL",
       "exists": false
     },
     {
@@ -2439,6 +3024,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CX_FHC_RUNTIME",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CX_FP_ADS_UTIL",
       "exists": false
     },
@@ -2460,6 +3050,11 @@
     {
       "object": "CLAS",
       "obj_name": "CX_FTD_PARAMETER_NOT_FOUND",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_GSM_API",
       "exists": false
     },
     {
@@ -2486,6 +3081,11 @@
       "object": "CLAS",
       "obj_name": "CX_LOB_SQL_ERROR",
       "exists": true
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_LOGOFF_FAILED",
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2569,7 +3169,27 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CX_RSPO_PDF_MERGER",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_RS_NOT_FOUND",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_RS_VCUBE_READ_ERROR",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CX_SADL_EXIT",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "CX_SATC_API",
       "exists": false
     },
     {
@@ -3374,6 +3994,11 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "CX_WS_PROTOCOL_ERROR",
+      "exists": true
+    },
+    {
+      "object": "CLAS",
       "obj_name": "CX_XCO_AR_EXISTENCE_EXCEPTION",
       "exists": false
     },
@@ -3484,6 +4109,16 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "SQL_CURRENCY_CONVERSION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "SQL_UNIT_CONVERSION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "XCO_CP",
       "exists": false
     },
@@ -3554,12 +4189,22 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "XCO_CP_CALL_STACK",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "XCO_CP_CDS",
       "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "XCO_CP_CDS_ANNOTATION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_CHARACTER",
       "exists": false
     },
     {
@@ -3599,7 +4244,27 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "XCO_CP_EVENT_BINDING",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_FUNCTION_GROUP",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_FUNCTION_MODULE",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "XCO_CP_GENERATION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_GENERATION_DDLS",
       "exists": false
     },
     {
@@ -3624,7 +4289,22 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "XCO_CP_HASH",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "XCO_CP_I18N",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_IAM",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_IAM_BUSINESS_CATALOG",
       "exists": false
     },
     {
@@ -3664,12 +4344,27 @@
     },
     {
       "object": "CLAS",
+      "obj_name": "XCO_CP_RAP",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
       "obj_name": "XCO_CP_REGULAR_EXPRESSION",
       "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "XCO_CP_SERVICE_BINDING",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_SERVICE_CONS_MODEL",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_SERVICE_DEFINITION",
       "exists": false
     },
     {
@@ -3728,6 +4423,26 @@
       "exists": false
     },
     {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_XLSX",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_XLSX_READ_ACCESS",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_XLSX_SELECTION",
+      "exists": false
+    },
+    {
+      "object": "CLAS",
+      "obj_name": "XCO_CP_XLSX_WRITE_ACCESS",
+      "exists": false
+    },
+    {
       "object": "DDLS",
       "obj_name": "C_GREGORIANCALDATEFUNCVH",
       "exists": false
@@ -3754,12 +4469,32 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "D_CPWF_CONTEXT_PARAMETER",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "D_CPWF_START_PARAMETER",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "D_SELECTCUSTOMIZINGTRANSPTREQP",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_ACADEMICTITLE",
       "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_ACADEMICTITLETEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ACADEMICTITLEVH",
       "exists": false
     },
     {
@@ -3799,7 +4534,17 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_ADDRDELIVERYSERVICETYPEVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_ADDRESSCOMMUNICATIONMETHOD",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRESSCOMMUNICATIONMETHODVH",
       "exists": false
     },
     {
@@ -3810,6 +4555,11 @@
     {
       "object": "DDLS",
       "obj_name": "I_ADDRESSCOMMUNICATIONUSAGE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRESSDEFAULTREPRESENTATION",
       "exists": false
     },
     {
@@ -3829,12 +4579,37 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_ADDRESSGROUP",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRESSGROUPTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRESSGROUPVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRESSMAINWEBSITEURL",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_ADDRESSMANAGEMENTURITYPE",
       "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_ADDRESSMANAGEMENTURITYPETEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRESSMANAGEMENTURITYPEVH",
       "exists": false
     },
     {
@@ -3874,7 +4649,17 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_ADDRESSREPRESENTATIONCODEVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_ADDRESSREPRESENTATIONTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRESSURI",
       "exists": false
     },
     {
@@ -3889,7 +4674,17 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_ADDRNONDELIVERABLEREASONVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_ADDRORGNAMEPOSTALADDRESS",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ADDRPERSNNAMEDFLTRPRSTN",
       "exists": false
     },
     {
@@ -3899,7 +4694,7 @@
     },
     {
       "object": "DDLS",
-      "obj_name": "I_APISFORSAPCOUDPLATFORM",
+      "obj_name": "I_APISWITHCLOUDDEVSUCCESSOR",
       "exists": false
     },
     {
@@ -3909,7 +4704,57 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_BPADDINDEPENDENTFAXTP_2",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDINDEPENDENTWEBSITETP_2",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_BPADDRDEPDNTINTLLOCNUMBER",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRESSINDEPENDENTEMAIL",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRESSINDEPENDENTFAX",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRESSINDEPENDENTMOBILE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRESSINDEPENDENTPHONE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRESSINDEPENDENTWEBSITE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRINDEPENDENTEMAILTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRINDEPENDENTMOBILETP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPADDRINDEPENDENTPHONETP_3",
       "exists": false
     },
     {
@@ -3929,6 +4774,16 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_BPDATACONTROLLERUSAGE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BPDIFFERENTIATIONTYPEVALUE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_BPPROTECTEDADDRESS",
       "exists": false
     },
@@ -3944,7 +4799,57 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_BUPAIDENTIFICATION",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUPAIDENTIFICATIONTYPE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_BUSINESSPARTNER",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERADDRESSTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERADDRESSTYPE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERADDRESSTYPET",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERADDRUSAGETP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERBANKTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERGROUPING",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERGROUPINGTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERGROUPTYPETEXT",
       "exists": false
     },
     {
@@ -3954,12 +4859,87 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERINDUSTRYTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERLEGALFORM",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERLEGALFORMTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNEROCCUPATION",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERPRINTFORMAT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERPRINTFORMATT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERROLESTDVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERROLETP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERSTANDARDUSAGE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_BUSINESSPARTNERTAXNUMBER",
       "exists": false
     },
     {
       "object": "DDLS",
-      "obj_name": "I_BUSINESSUSER",
+      "obj_name": "I_BUSINESSPARTNERTAXNUMBERTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERTOBPROLE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERTOBPROLE_2",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERTYPE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERTYPETEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSINESSPARTNERVH",
       "exists": false
     },
     {
@@ -3979,6 +4959,126 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_BUSPARTADDRESS",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTBIRTHDATESTATUS",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTBIRTHDATESTATUSTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTCATEGORY",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTCATEGORYTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTCUSTSELECTEDTAXTYPE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTEMAILADDRESSTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTFAXNUMBERTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTIDENTIFICATIONTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTINDUSTRYKEY",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTINDUSTRYKEYTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTINDUSTRYSYSTEM",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTINDUSTRYSYSTEMTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTMARITALSTATUS",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTMARITALSTATUSTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTMOBILEPHONENUMBERTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTOCCUPATIONTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTSCRIPTEDORGADDRTP_2",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTSCRIPTGROUPADDRTP_2",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTSCRIPTPERSONADDRTP_2",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTSTANDARDUSAGETEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTTAXTYPETEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTTELEPHONENUMBERTP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_BUSPARTWEBSITETP_3",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_CALENDARDATE",
       "exists": false
     },
@@ -3990,6 +5090,11 @@
     {
       "object": "DDLS",
       "obj_name": "I_CALENDARMONTHTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_CALENDARMONTHVH",
       "exists": false
     },
     {
@@ -4019,12 +5124,42 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_CONTACTPERSONDEPARTMENT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_CONTACTPERSONDEPARTMENTT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_CONTACTPERSONFUNCTION",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_CONTACTPERSONFUNCTIONT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_COUNTRY",
       "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_COUNTRYTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_COUNTRYVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_CPWF_INST",
       "exists": false
     },
     {
@@ -4089,6 +5224,11 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_EXCHANGERATETYPESTDVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_EXCHANGERATETYPETEXT",
       "exists": false
     },
@@ -4099,12 +5239,47 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_FACTORYCALENDARBASIC",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_FACTORYCALENDARBASICTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_FACTORYCALENDARVALUEHELP",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_FAMILYNAMEPREFIX",
       "exists": false
     },
     {
       "object": "DDLS",
+      "obj_name": "I_FAMILYNAMEPREFIXVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_FISCALCALENDARDATE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_FISCALDATEFUNCTION",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_FISCALDATEFUNCTIONTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_FISCALDATEFUNCTIONVALUE",
       "exists": false
     },
     {
@@ -4129,7 +5304,17 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_FISCALQUARTER",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_FISCALQUARTERFORVARIANT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_FISCALQUARTERTEXT",
       "exists": false
     },
     {
@@ -4214,6 +5399,16 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_IAMBUSINESSROLEPRICECATEGORY",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_IAMBUSINESSROLEPRICECATTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_IAMBUSINESSROLETEXT",
       "exists": false
     },
@@ -4239,6 +5434,11 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_IAMSUPPORTUSERREQUESTLOG",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_LANGUAGE",
       "exists": true
     },
@@ -4259,12 +5459,57 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_NAMESUPPLEMENTVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_ORGADDRESSDEFAULTRPRSTN",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_ORGANIZATIONADDRESS",
       "exists": false
     },
     {
       "object": "DDLS",
+      "obj_name": "I_ORGNAMEPOSTLADDRDFLTRPRSTN",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PAYMENTCARD",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PAYMENTCARDLOCK",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PAYMENTCARDTYPE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PCF_CODEVALUEHELP",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PCF_CODEVALUEHELPTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_PERSONADDRESS",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PERSONADDRESSDEFAULTRPRSTN",
       "exists": false
     },
     {
@@ -4294,6 +5539,21 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_PUBLHOLIDAYCALENDARBASICTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PUBLICHOLIDAYCALENDARBASIC",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_PUBLICHOLIDAYCALENDARVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_REGION",
       "exists": false
     },
@@ -4310,6 +5570,11 @@
     {
       "object": "DDLS",
       "obj_name": "I_REGIONTEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_REGIONVH",
       "exists": false
     },
     {
@@ -4379,6 +5644,16 @@
     },
     {
       "object": "DDLS",
+      "obj_name": "I_TIMEZONEIANACODEMAP",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_TIMEZONEIANACODESTDVH",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
       "obj_name": "I_TIMEZONERULE",
       "exists": false
     },
@@ -4395,6 +5670,16 @@
     {
       "object": "DDLS",
       "obj_name": "I_TRANSPORTATIONZONE",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_TRANSPORTATIONZONETEXT",
+      "exists": false
+    },
+    {
+      "object": "DDLS",
+      "obj_name": "I_TRANSPORTATIONZONEVH",
       "exists": false
     },
     {
@@ -4474,6 +5759,11 @@
     },
     {
       "object": "DOMA",
+      "obj_name": "ACO_PROXY_MSG_TYPE",
+      "exists": false
+    },
+    {
+      "object": "DOMA",
       "obj_name": "ACTIV_AUTH",
       "exists": true
     },
@@ -4489,32 +5779,7 @@
     },
     {
       "object": "DOMA",
-      "obj_name": "CHAR001",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
       "obj_name": "CHAR01",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR010",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR02",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR03",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR08",
       "exists": true
     },
     {
@@ -4524,382 +5789,7 @@
     },
     {
       "object": "DOMA",
-      "obj_name": "CHAR10",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR100",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR11",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR116",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR12",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR120",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR123",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR128",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR13",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR134",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR14",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR140",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR15",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR150",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR16",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR17",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR18",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR180",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR19",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR1_X",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR2",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR20",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR200",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR21",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR22",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR24",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR240",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR25",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR251",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR255",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR256",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR26",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR260",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR27",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR28",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR3",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
       "obj_name": "CHAR30",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR300",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR32",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR33",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR34",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR35",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR36",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR37",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR38",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR4",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR40",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR42",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR45",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR46",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR47",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR48",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR49",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR5",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR50",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR55",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR56",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR58",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR6",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR60",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR61",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR64",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR65",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR66",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR7",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR70",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR72",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR78",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR79",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR8",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR80",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR81",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR9",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR90",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "CHAR93",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "DATS",
       "exists": true
     },
     {
@@ -4934,6 +5824,11 @@
     },
     {
       "object": "DOMA",
+      "obj_name": "MTART",
+      "exists": true
+    },
+    {
+      "object": "DOMA",
       "obj_name": "REGEX_STANDARD",
       "exists": false
     },
@@ -4944,217 +5839,17 @@
     },
     {
       "object": "DOMA",
-      "obj_name": "TEXT1",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT10",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT100",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT11",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT12",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT120",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT128",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT132",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT140",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT15",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT16",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT17",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT18",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT2",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT20",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT240",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT25",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT255",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT27",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT3",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT30",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT32",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT34",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT35",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT4",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
       "obj_name": "TEXT40",
       "exists": true
     },
     {
       "object": "DOMA",
-      "obj_name": "TEXT42",
+      "obj_name": "TZNTSTMPL",
       "exists": true
     },
     {
       "object": "DOMA",
-      "obj_name": "TEXT45",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT47",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT5",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT50",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT55",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT56",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT60",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT64",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT65",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT7",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT70",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT72",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT8",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT80",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT9",
-      "exists": true
-    },
-    {
-      "object": "DOMA",
-      "obj_name": "TEXT90",
+      "obj_name": "TZNTSTMPS",
       "exists": true
     },
     {
@@ -5268,24 +5963,9 @@
       "exists": true
     },
     {
-      "object": "DTEL",
-      "obj_name": "A4C_CP_SERVICE_TYPE",
-      "exists": false
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "A4C_CP_SVC_INSTANCE_NAME",
-      "exists": false
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "A4C_CP_SVC_PROPERTY_NAME",
-      "exists": false
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "A4C_CP_SVC_PROPERTY_VALUE",
-      "exists": false
+      "object": "DOMA",
+      "obj_name": "XUBNAME",
+      "exists": true
     },
     {
       "object": "DTEL",
@@ -5464,6 +6144,11 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "ACO_PROXY_MSG_TYPE",
+      "exists": false
+    },
+    {
+      "object": "DTEL",
       "obj_name": "ACTIV_AUTH",
       "exists": true
     },
@@ -5479,8 +6164,23 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "AD_COMCTRY",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_COMMLINENOTFORUNSLCTDCNTCT",
+      "exists": false
+    },
+    {
+      "object": "DTEL",
       "obj_name": "AD_CTRY_FR",
       "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_EMAILCURDFLT",
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -5494,7 +6194,42 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "AD_NAMEFIR",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_NAMELAS",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
       "obj_name": "AD_PERSNUM",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_PHNMBRCUROVRLDFLT",
+      "exists": false
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_PHONENUMBERTYPE",
+      "exists": false
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_PSTCD1",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_STRPRIO",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_TELNRLG",
       "exists": true
     },
     {
@@ -5505,6 +6240,16 @@
     {
       "object": "DTEL",
       "obj_name": "AD_TITLETX",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_TLNMBR",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "AD_TLXTNS",
       "exists": true
     },
     {
@@ -5744,11 +6489,6 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "BAPI_RCODE",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
       "obj_name": "BAPI_SIGN",
       "exists": true
     },
@@ -5770,6 +6510,11 @@
     {
       "object": "DTEL",
       "obj_name": "BAPI_TLINE",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "BEDAT",
       "exists": true
     },
     {
@@ -5800,16 +6545,6 @@
     {
       "object": "DTEL",
       "obj_name": "BLDAT",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "BOOLEAN",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "BOOLE_D",
       "exists": true
     },
     {
@@ -5854,208 +6589,13 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "CHAR1",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR10",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR100",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR12",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR120",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR128",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR134",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR14",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR140",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR15",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR16",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR17",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR18",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR2",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR20",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR200",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR22",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR24",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR25",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR251",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR255",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR26",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR260",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR3",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR30",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR32",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR35",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR38",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR4",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR40",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR45",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR5",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR6",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR64",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR70",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR79",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR8",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR80",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CHAR90",
+      "obj_name": "CHARG_D",
       "exists": true
     },
     {
       "object": "DTEL",
       "obj_name": "CMIS_DECIMAL",
       "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "CMIS_DESTINATION",
-      "exists": false
     },
     {
       "object": "DTEL",
@@ -6116,11 +6656,6 @@
       "object": "DTEL",
       "obj_name": "DATN",
       "exists": false
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "DATS",
-      "exists": true
     },
     {
       "object": "DTEL",
@@ -6190,6 +6725,11 @@
     {
       "object": "DTEL",
       "obj_name": "EBELP",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "ELIFN",
       "exists": true
     },
     {
@@ -6269,6 +6809,16 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "FINS_FISCALPERIOD",
+      "exists": false
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "FINS_FYEARPERIOD",
+      "exists": false
+    },
+    {
+      "object": "DTEL",
       "obj_name": "FINS_TPERIOD_OFFSET_UNIT",
       "exists": false
     },
@@ -6289,11 +6839,6 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "FLAG",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
       "obj_name": "GEOM_EWKB",
       "exists": false
     },
@@ -6309,12 +6854,12 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "GUID",
+      "obj_name": "HBKID",
       "exists": true
     },
     {
       "object": "DTEL",
-      "obj_name": "HBKID",
+      "obj_name": "HKONT",
       "exists": true
     },
     {
@@ -6359,6 +6904,11 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "J_OBJNR",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
       "obj_name": "KOART",
       "exists": true
     },
@@ -6394,12 +6944,17 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "LAISO",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
       "obj_name": "LAND1",
       "exists": true
     },
     {
       "object": "DTEL",
-      "obj_name": "LANGU",
+      "obj_name": "LIFNR",
       "exists": true
     },
     {
@@ -6444,22 +6999,7 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "NOT_RELEASED",
-      "exists": false
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "NUMC2",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "NUMC3",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "NUMC4",
+      "obj_name": "NAME1_GP",
       "exists": true
     },
     {
@@ -6489,11 +7029,6 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "PCF_BOOLEAN",
-      "exists": false
-    },
-    {
-      "object": "DTEL",
       "obj_name": "PCF_CURRENCY",
       "exists": false
     },
@@ -6504,7 +7039,7 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "PCF_NUMBER",
+      "obj_name": "PCF_DECIMAL_NUMBER",
       "exists": false
     },
     {
@@ -6614,11 +7149,6 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "RKZ_DBNA",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
       "obj_name": "SCX_ATTRNAME",
       "exists": true
     },
@@ -6649,7 +7179,17 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "SIGN_AP",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
       "obj_name": "SKOST",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "SOBKZ",
       "exists": true
     },
     {
@@ -6660,6 +7200,11 @@
     {
       "object": "DTEL",
       "obj_name": "STCEG",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "STGRD",
       "exists": true
     },
     {
@@ -6849,6 +7394,11 @@
     },
     {
       "object": "DTEL",
+      "obj_name": "SXCO_IAM_BC_OBJECT_NAME",
+      "exists": false
+    },
+    {
+      "object": "DTEL",
       "obj_name": "SXCO_MC_OBJECT_NAME",
       "exists": false
     },
@@ -6984,116 +7534,6 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "TEXT12",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT128",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT132",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT15",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT180",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT20",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT200",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT240",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT25",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT255",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT256",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT30",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT35",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT40",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT50",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT6",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT60",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT70",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT8",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT80",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT9",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "TEXT90",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
       "obj_name": "TE_STRUC",
       "exists": true
     },
@@ -7154,11 +7594,6 @@
     },
     {
       "object": "DTEL",
-      "obj_name": "UNAME",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
       "obj_name": "USNAM",
       "exists": true
     },
@@ -7175,6 +7610,11 @@
     {
       "object": "DTEL",
       "obj_name": "VALUT",
+      "exists": true
+    },
+    {
+      "object": "DTEL",
+      "obj_name": "VERSN",
       "exists": true
     },
     {
@@ -7205,11 +7645,6 @@
     {
       "object": "DTEL",
       "obj_name": "WWERT_D",
-      "exists": true
-    },
-    {
-      "object": "DTEL",
-      "obj_name": "XFELD",
       "exists": true
     },
     {
@@ -7349,6 +7784,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "/IWBEP/IF_CP_REQUEST_ACTION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_BATCH",
       "exists": false
     },
@@ -7409,6 +7849,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "/IWBEP/IF_CP_RESOURCE_ACTION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESOURCE_ENTITY",
       "exists": false
     },
@@ -7425,6 +7870,11 @@
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESOURCE_LIST",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "/IWBEP/IF_CP_RESPONSE_ACTION",
       "exists": false
     },
     {
@@ -7474,6 +7924,26 @@
     },
     {
       "object": "INTF",
+      "obj_name": "/IWXBE/IF_CONSUMER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "/IWXBE/IF_CONSUMER_EVENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "/IWXBE/IF_CONSUMER_TOPIC",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "/IWXBE/IF_DESCRIPTION_TYPES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_A4C_BC_HANDLER",
       "exists": false
     },
@@ -7485,21 +7955,6 @@
     {
       "object": "INTF",
       "obj_name": "IF_A4C_CP_SERVICE_TYPES",
-      "exists": false
-    },
-    {
-      "object": "INTF",
-      "obj_name": "IF_A4C_RAP_QUERY_PROVIDER",
-      "exists": false
-    },
-    {
-      "object": "INTF",
-      "obj_name": "IF_A4C_RAP_QUERY_REQUEST",
-      "exists": false
-    },
-    {
-      "object": "INTF",
-      "obj_name": "IF_A4C_RAP_QUERY_RESPONSE",
       "exists": false
     },
     {
@@ -7714,8 +8169,18 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_APJ_RT_VALUE_HELP_EXIT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_APJ_TYPES",
       "exists": true
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_APS_BC_SCOPE_CHANGE_API",
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7731,11 +8196,6 @@
       "object": "INTF",
       "obj_name": "IF_AUNIT_AUTH_CHECK_RESULT_LOG",
       "exists": false
-    },
-    {
-      "object": "INTF",
-      "obj_name": "IF_AUNIT_CONSTANTS",
-      "exists": true
     },
     {
       "object": "INTF",
@@ -7784,6 +8244,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_BALI_ITEM_FILTER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_BALI_ITEM_GETTER",
       "exists": false
     },
@@ -7824,11 +8289,6 @@
     },
     {
       "object": "INTF",
-      "obj_name": "IF_BAL_LOGGER",
-      "exists": false
-    },
-    {
-      "object": "INTF",
       "obj_name": "IF_BCFG_CD_CUST_OBJECT_SERVICE",
       "exists": false
     },
@@ -7859,6 +8319,201 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_BLE_DT_ROW_ITERATOR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BLE_DYNAMIC_TABLE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_ADD_BEHV_CONFIG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_FIELDS_HANDLER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_IN_CFG_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_IN_CFG_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_IN_SET_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_IN_SET_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_OUT_CFG_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_OUT_CFG_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_OUT_SET_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_BUFDBL_OUT_SET_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEMLAPI_BO_TEST_ENV",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEMLAPI_TEST_DOUBLE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEMLAPI_TEST_ENVCFG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_CALL_CONFIG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_ENTPART_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_ENTPART_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_INBLDR_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_INBLDR_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_IN_CFGBLDR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_IN_CFG_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_IN_CFG_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_IN_SET_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_IN_SET_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_OUTBLDR_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_OUTBLDR_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_OUT_CFGBLDR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_OUT_CFG_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_OUT_CFG_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_OUT_SET_MOD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_OUT_SET_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_VERIFICATION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_VERIFY_MODIFY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_MOCKEML_VERIFY_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_TXBUFDBL_BO_TEST_ENV",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_TXBUFDBL_TEST_DOUBLE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_TXBUFDBL_TEST_ENVCFG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_BOTD_TYPES_DEF",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_CDS_ACCESS_CONTROL_DATA",
       "exists": false
     },
@@ -7884,7 +8539,22 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_CDS_STUB",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_CDS_TEST_DATA",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_CDS_TEST_ENVIRONMENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_CHDO_DELETE_TOOLS",
       "exists": false
     },
     {
@@ -7899,8 +8569,53 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_CI_ATC_CHECK",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_CI_ATC_CHECK_META_DATA",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_CI_ATC_FINDING_STACK",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_CI_ATC_QUICKFIX",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_CI_ATC_SOURCE_CODE_PROVIDER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_CI_ATC_UNIT_ASSERTER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_CMIS_CLIENT",
       "exists": true
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_COM_ARRANGEMENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_COM_ARRANGEMENT_BADI",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_COM_ARRANGEMENT_FACTORY",
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7915,6 +8630,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_COM_SCENARIO_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_COM_SYSTEM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_COM_SYSTEM_FACTORY",
       "exists": false
     },
     {
@@ -8079,6 +8804,26 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_FHC_FCAL_RUNTIME",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_FHC_HCAL_RUNTIME",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_FHC_HOLIDAY_RUNTIME",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_FHC_ID_MAPPER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_FP_FDP_API",
       "exists": false
     },
@@ -8145,6 +8890,41 @@
     {
       "object": "INTF",
       "obj_name": "IF_FUNCTION_TEST_ENVIRONMENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_GSM_API_CONSTANTS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_GSM_API_METRIC",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_GSM_API_METRIC_GROUP",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_GSM_API_MODEL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_GSM_API_PROVIDER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_GSM_API_TEST",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_GSM_API_TYPES",
       "exists": false
     },
     {
@@ -8389,6 +9169,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_MAIL_ADDRESS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_MBC_CP_API_BUSINESS_CONFIG",
       "exists": false
     },
@@ -8399,7 +9184,17 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_MBC_CP_MESSAGE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_MBC_CP_RAP_TABLE_CTS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_MBC_CP_RAP_TDAT_CTS",
       "exists": false
     },
     {
@@ -8449,12 +9244,42 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_PROXY_BASIS",
+      "exists": true
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_PROXY_CLIENT",
       "exists": true
     },
     {
       "object": "INTF",
       "obj_name": "IF_PROXY_DESTINATION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_RAP_EVENT_DOUBLE_MASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_RAP_EVENT_DOUBLE_M_VERIFY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_RAP_EVENT_DOUBLE_SINGLE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_RAP_EVENT_DOUBLE_S_VERIFY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_RAP_EVENT_TEST_ENVIRONMENT",
       "exists": false
     },
     {
@@ -8509,8 +9334,53 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_RSPO_PDF_MERGER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_RSRTS_CDS_READ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_RSRTS_CDS_VARIABLE_CHECK",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_SADL_EXIT_CALC_ELEMENT_READ",
       "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SADL_EXIT_SORT_TRANSFORM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SATC_API_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SATC_API_RESULT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SATC_API_RUN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SATC_API_RUN_CONFIGURATION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SATC_OBJECT_SET",
+      "exists": true
     },
     {
       "object": "INTF",
@@ -8545,6 +9415,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CPWF_CAPI",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SWF_CPWF_CAPI_ENTITY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_SWF_CPWF_CAPI_WF_INSTS",
       "exists": false
     },
     {
@@ -8684,8 +9564,18 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_WS_SEQUENCE_FACADE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_WS_SERVER_CONTEXT",
       "exists": true
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_WS_SOAP_HEADER_FACADE",
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8780,6 +9670,21 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_AD_TABLE_TYPES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AMDP_DATABASE_ENTITY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AMDP_OPTION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AO_CACHEABLE_ORIGIN",
       "exists": false
     },
     {
@@ -8930,6 +9835,26 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_AO_S_EXCEPTION_CONTENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AO_S_PARAMETER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AO_S_PARAMETERS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AO_S_PARAMETERS_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AO_S_PARAMETER_CONTENT",
       "exists": false
     },
     {
@@ -9209,12 +10134,32 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_AR_DRTY_OBJECT_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_DRTY_OBJECT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_AR_DTEL_OBJECT_CLASS",
       "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_AR_DTEL_OBJECT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_EVTB_OBJECT_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_EVTB_OBJECT_FACTORY",
       "exists": false
     },
     {
@@ -9284,6 +10229,26 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_AR_RONT_OBJECT_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_RONT_OBJECT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_SIA1_OBJECT_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_SIA1_OBJECT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_AR_SMBC_OBJECT_CLASS",
       "exists": false
     },
@@ -9300,6 +10265,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_AR_SRVB_OBJECT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_SRVC_OBJECT_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_AR_SRVC_OBJECT_FACTORY",
       "exists": false
     },
     {
@@ -9409,6 +10384,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_BIMP_TD_STRUCTURE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_BIMP_TD_STRUCTURE_F",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_BIMP_TD_TABLE",
       "exists": false
     },
@@ -9470,6 +10455,11 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CDS_ANN_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CDS_ANN_VALUE_BUILDER",
       "exists": false
     },
     {
@@ -9644,6 +10634,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CDS_TYPE_DEFINITION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CDS_TYPE_DEFINITIONS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CDS_UNION",
       "exists": false
     },
@@ -9670,6 +10670,21 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CDS_VIEW_ENTITY_CONTENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CHAR_CODE_PAGE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CHAR_CP_CONVERSION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CLAS_CACHEABLE_ORIGIN",
       "exists": false
     },
     {
@@ -9809,7 +10824,17 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_AR_DRTY_OC_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_AR_DTEL_OC_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_AR_EVTB_OC_FACTORY",
       "exists": false
     },
     {
@@ -9834,12 +10859,27 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_AR_RONT_OC_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_AR_SIA1_OC_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_AR_SMBC_OC_FACTORY",
       "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CP_AR_SRVB_OC_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_AR_SRVC_OC_FACTORY",
       "exists": false
     },
     {
@@ -10009,7 +11049,47 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_CALL_STACK",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_CDS_API_ANNOTATIONS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_CHAR_CODE_PAGE_FCTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_CS_EXTR_API_FROM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_CS_EXTR_API_TO",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_CS_FORMAT_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_CS_LINE_NMBR_FLV_FCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_CS_LINE_PATTERN_FCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_CTS_ATTRIBUTE",
       "exists": false
     },
     {
@@ -10169,6 +11249,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DDLS_S_FORM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DDLS_TPL_SOURCE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_DDLX_D_API",
       "exists": false
     },
@@ -10234,12 +11324,47 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DOMA_D_O_PATCH",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DOMA_D_O_PATCH_O",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_DOMA_D_O_PUT_OBJ",
       "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_DOMA_D_O_PUT_SCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DOMA_O_PATCH_SCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DOMA_S_CHANGE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DOMA_S_CH_DELETE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DOMA_S_CH_INSERT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DOMA_S_CH_UPDATE",
       "exists": false
     },
     {
@@ -10259,6 +11384,31 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DRTY_O_DELETE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DRTY_O_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DRTY_O_PUT_OBJCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DRTY_O_PUT_SCTN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DRTY_S_FORM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_DTEL_D_API",
       "exists": false
     },
@@ -10269,12 +11419,37 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DTEL_D_O_PATCH",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DTEL_D_O_PATCH_O",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_DTEL_D_O_PUT_OBJ",
       "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_DTEL_D_O_PUT_SCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DTEL_O_PATCH_SCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DTEL_S_CHANGE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_DTEL_S_CH_UPDATE",
       "exists": false
     },
     {
@@ -10310,6 +11485,61 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_ENV_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_O_DELETE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_O_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_O_PATCH_OBJ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_O_PATCH_SCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_O_PUT_OBJCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_O_PUT_SCTN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_S_CHANGE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_S_CH_DELETE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_S_CH_INSERT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_S_CH_UPDATE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_EVTB_S_FORM",
       "exists": false
     },
     {
@@ -10494,6 +11724,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_O_PATCH",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_O_PATCH_MASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_O_POST",
       "exists": false
     },
@@ -10589,7 +11829,37 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_DBT_O_PAT_O",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_DBT_O_PAT_S",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_DBT_S_CHNG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_DBT_S_CH_UP",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_DBT_S_CU_TD",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_TABL_DBT_S_FORM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_DBT_S_FO_TD",
       "exists": false
     },
     {
@@ -10654,6 +11924,26 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_STR_O_PAT_O",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_STR_O_PAT_S",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_STR_S_CHNG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_TABL_STR_S_CH_UP",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_TABL_STR_S_FORM",
       "exists": false
     },
@@ -10700,6 +11990,36 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CP_GEN_TTYP_TEMPLATE_FY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_XSLT_D_API",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_XSLT_D_O_DELETE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_XSLT_D_O_PUT_OBJ",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_XSLT_D_O_PUT_SCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_GEN_XSLT_S_FORM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_HASH_ALGORITHM_FCTRY",
       "exists": false
     },
     {
@@ -10779,6 +12099,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_NAMESPACE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_NAMESPACE_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_NAME_CHOICE_FACTORY",
       "exists": false
     },
@@ -10804,7 +12134,37 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_SRVB_API_LCL_SRVC_EP",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_SRVB_API_LSE_ODV2",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_SRVB_API_LSE_ODV2_OP",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_SRVB_API_LSE_ODV4",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_SRVB_API_LSE_ODV4_OP",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_STD_CURRENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_STD_CUR_API_CLL_STCK",
       "exists": false
     },
     {
@@ -10835,6 +12195,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CP_TENANT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TEN_GLOBL_ACCOUNT_ID",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TEN_SUBACCOUNT_ID",
       "exists": false
     },
     {
@@ -10909,12 +12279,152 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_API_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_API_KEY_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_API_OBJ_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_ATTRIBUTE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_ATTRIBUTES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_ENTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_ENTRY_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_ENTRY_FILTER_FCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_TR_FILTER_FACTORY",
       "exists": false
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_KEY_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_KEY_ENTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_KE_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_KE_TABLE_KEY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_KE_TK_COMPONENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_KE_TK_CPNT_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_OBJECT_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_OBJECT_ENTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_OE_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_OE_FILTER_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_API_OBJ_ENTS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_OBJECT_ENTRS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_OBJECT_ENTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_OE_CLASS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_TABU_API_OES",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_TABU_OBJ_ENS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_TABU_OBJ_ENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_R3TR_TABU_OE_CLSS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CP_TR_REQUEST",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_TR_REQUEST_ATTRBTS_F",
       "exists": false
     },
     {
@@ -10954,6 +12464,41 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_CP_XLSX_DOCUMENT_FCTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_XLSX_DOC_EMPTY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_XLSX_DOC_FILE_CONTNT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CP_XLSX_SLC_PB_FACTORY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CS_FORMAT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CS_LINE_NUMBER_FLAVOR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CS_LINE_PATTERN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_CTS_CHANGEABLE",
       "exists": false
     },
@@ -10965,6 +12510,11 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_CTS_CHANGE_SCENARIO",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_CTS_CHANGE_TARGET",
       "exists": false
     },
     {
@@ -11000,6 +12550,11 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_DATA_OBJECT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_DBT_CACHEABLE_ORIGIN",
       "exists": false
     },
     {
@@ -11074,6 +12629,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_DBT_TEXT_TABLE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_DCL_CB_ASPECT",
       "exists": false
     },
@@ -11130,6 +12690,11 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_DCL_CB_INH_R_PFCG_FLR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_DCL_CB_INH_R_PREFIX",
       "exists": false
     },
     {
@@ -11319,6 +12884,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_DOMAIN_CACHEABLE_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_DOMAIN_CONTENT",
       "exists": false
     },
@@ -11359,6 +12929,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_DP_ACTION_RESULT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_DP_ADDITION",
       "exists": false
     },
@@ -11384,12 +12959,62 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_DTEL_CACHEABLE_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_DTEL_CONTENT",
       "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_DTEL_DATA_TYPE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EB_CACHEABLE_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EB_CONTENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EB_EVENT_VERSION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EB_EVENT_VERSIONS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EB_EVENT_VERSIONS_FCTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EB_EVENT_VERSION_CNT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EVENT_BINDING",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_EVENT_BINDINGS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_FG_CACHEABLE_ORIGIN",
       "exists": false
     },
     {
@@ -11405,6 +13030,11 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_FG_FUNCTION_MODULES_FCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_FM_CACHEABLE_ORIGIN",
       "exists": false
     },
     {
@@ -11729,6 +13359,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_ASC_CRT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_ASSOCTN",
       "exists": false
     },
@@ -11739,12 +13374,22 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_A_DE_RF",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_A_PARAM",
       "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_A_RSULT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_A_VA_RF",
       "exists": false
     },
     {
@@ -11760,6 +13405,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_ETAG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_EVENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_E_PARAM",
       "exists": false
     },
     {
@@ -11785,6 +13440,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_GEN_BDEF_S_FO_B_VALIDTN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_BDEF_S_FO_PRAGMA_T",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_BDEF_S_FO_SCLR_ENTY",
       "exists": false
     },
     {
@@ -11949,12 +13614,27 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_PRVDR_CNTRCT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_DDLS_S_FO_ASSOC",
       "exists": false
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_S_FO_A_E",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_DDLS_S_FO_COMPOS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_S_FO_C_E",
       "exists": false
     },
     {
@@ -11989,7 +13669,27 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_S_FO_P_VIEW",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_DDLS_S_FO_P_VIEW_DS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_S_FO_TABLE_F",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_S_FO_UNION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_S_FO_VIEW",
       "exists": false
     },
     {
@@ -11999,7 +13699,17 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_S_FO_VIEW_E",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_DDLS_S_FO_VIEW_E_DS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DDLS_TEMPLATE",
       "exists": false
     },
     {
@@ -12019,6 +13729,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DOMA_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DOMA_S_CH_UP_FXD_VL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_DOMA_S_FO_FXD_VALS",
       "exists": false
     },
@@ -12034,12 +13754,42 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DRTY_STD_TYPE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DRTY_S_FO_SPL_TP_DF",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_DTEL_DATA_TYPE",
       "exists": false
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DTEL_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_DTEL_S_CH_UP_FLD_LB",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_DTEL_S_FO_FLD_LBL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_EVTB_S_CH_UP_EV_VN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_EVTB_S_FO_EVNT_VRSN",
       "exists": false
     },
     {
@@ -12129,6 +13879,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_O_PATCH_RESULT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_O_POST_RESULT",
       "exists": false
     },
@@ -12155,6 +13910,21 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_GEN_TABL_APS_ENH_CAT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_DBT_S_CH_UP_FL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_DBT_S_CH_UP_IC",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_DBT_S_CH_U_F_U",
       "exists": false
     },
     {
@@ -12209,12 +13979,47 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_STR_S_CH_U_CMP",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_STR_S_CH_U_C_U",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_STR_S_CH_U_INC",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_GEN_TABL_STR_S_FO_CMPNT",
       "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_GEN_TABL_STR_S_FO_INCL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_S_CH_U_CUR_QUN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_S_CH_U_FRG_KEY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_GEN_TABL_S_CH_U_SCH_HLP",
       "exists": false
     },
     {
@@ -12304,6 +14109,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_HASH_ALGORITHM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_I18N_ALO_TARGET_OBJECT",
       "exists": false
     },
@@ -12340,6 +14150,11 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_I18N_DM_TARGET_FIXED_VA",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_I18N_IAM_BC_TARGT_OBJCT",
       "exists": false
     },
     {
@@ -12389,6 +14204,31 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_IAM_BC_CONTENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_IAM_BC_I18N_TARGT_FCTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_IAM_BUSINESS_CATALOG",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_IAM_BUSINESS_CATALOGS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_INTF_CACHEABLE_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_INTF_COMPONENTS_FACTORY",
       "exists": false
     },
@@ -12420,6 +14260,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_INTF_C_METHOD_CONTENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_INTF_IMPLEMENTATIONS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_INTF_IMPLEMENTATIONS_FC",
       "exists": false
     },
     {
@@ -12554,6 +14404,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_RAP_BEHAVIOR_MESSAGE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_REGEX_APPLICATION",
       "exists": false
     },
@@ -12565,6 +14420,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_REGULAR_EXPRESSION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SAP_OBJECT_TYPE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SAP_OBJECT_TYPES",
       "exists": false
     },
     {
@@ -12584,6 +14449,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_SERVICE_CONSUMPTION_MDL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SERVICE_CONSUMPTN_MDLS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_SERVICE_DEFINITION",
       "exists": false
     },
@@ -12595,6 +14470,16 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_SOFTWARE_COMPONENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVB_CACHEABLE_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVB_OPERATION",
       "exists": false
     },
     {
@@ -12630,6 +14515,71 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_SRVB_SERVICE_VERSION_CO",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_CACHEABLE_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_CONTENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_REMOTE_FUNCTION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_REMOTE_FUNCTIONS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_REMOTE_FUNCTIONS_F",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_SERVICE_OPERATION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_SERVICE_OPERATIONS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_SERVICE_OPERATNS_F",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_SVC_ENTITY_SET",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_SVC_ENTITY_SETS",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_SVC_ENTITY_SETS_F",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVC_SVC_ENTITY_SET_CO",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_SRVD_CACHEABLE_ORIGIN",
       "exists": false
     },
     {
@@ -12764,6 +14714,11 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_TAB_CACHEABLE_ORIGIN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_TAB_FIELD",
       "exists": false
     },
@@ -12849,6 +14804,16 @@
     },
     {
       "object": "INTF",
+      "obj_name": "IF_XCO_TR_ENTRY_FILTER",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_TR_ENTRY_SOURCE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
       "obj_name": "IF_XCO_TR_FILTER",
       "exists": false
     },
@@ -12890,6 +14855,211 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_UUID_FORMAT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CELL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CELL_STREAM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CELL_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CS_OPERATION_FC",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CS_OP_VISIT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CS_VISITOR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CURSOR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_CURSOR_POSITION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_DOCUMENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_OPERATION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_ROW_STREAM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_RS_OPERATION_FC",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_RS_OP_WRITE_TO",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_SELECTION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_VT_BEST_EFFORT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_VT_CELL_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_VT_IDENTITY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_VT_ROW_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_VT_STRING_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_WORKBOOK",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_WORKSHEET",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_RA_WORKSHEET_FCTRY",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_SLC_PATTERN",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_SLC_PATTERN_BLDR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_SLC_PB_SPL_FROM_TO",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_CELL",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_CELL_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_CURSOR",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_CURSOR_POSITION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_DOCUMENT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_OPERATION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_ROW_STREAM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_RS_OPERATION_FC",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_RS_OP_WRITE_FRM",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_SELECTION",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_VT_BEST_EFFORT",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_VT_CELL_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_VT_ROW_VALUE",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_WORKBOOK",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_WORKSHEET",
+      "exists": false
+    },
+    {
+      "object": "INTF",
+      "obj_name": "IF_XCO_XLSX_WA_WORKSHEET_FCTRY",
       "exists": false
     },
     {
@@ -12950,6 +15120,36 @@
     {
       "object": "TABL",
       "obj_name": "ABP_BEHV_RETRIEVALS",
+      "exists": false
+    },
+    {
+      "object": "TABL",
+      "obj_name": "ACO_PROXY_TEXTID_TYPE",
+      "exists": false
+    },
+    {
+      "object": "TABL",
+      "obj_name": "ADDRESSPOST",
+      "exists": false
+    },
+    {
+      "object": "TABL",
+      "obj_name": "ADDRESS_1",
+      "exists": false
+    },
+    {
+      "object": "TABL",
+      "obj_name": "ADDRESS_2",
+      "exists": false
+    },
+    {
+      "object": "TABL",
+      "obj_name": "ADDRESS_3",
+      "exists": false
+    },
+    {
+      "object": "TABL",
+      "obj_name": "ADDRESS_DATA_S",
       "exists": false
     },
     {
@@ -13149,11 +15349,6 @@
     },
     {
       "object": "TABL",
-      "obj_name": "BAPIRET1",
-      "exists": true
-    },
-    {
-      "object": "TABL",
       "obj_name": "BAPIRET2",
       "exists": true
     },
@@ -13170,16 +15365,6 @@
     {
       "object": "TABL",
       "obj_name": "BAPIRETS",
-      "exists": true
-    },
-    {
-      "object": "TABL",
-      "obj_name": "BAPIRETURN",
-      "exists": true
-    },
-    {
-      "object": "TABL",
-      "obj_name": "BAPIRETURN1",
       "exists": true
     },
     {
@@ -13434,11 +15619,6 @@
     },
     {
       "object": "TABL",
-      "obj_name": "LDBCB",
-      "exists": true
-    },
-    {
-      "object": "TABL",
       "obj_name": "MATCH_RESULT",
       "exists": true
     },
@@ -13455,16 +15635,6 @@
     {
       "object": "TABL",
       "obj_name": "REPL_RESULT",
-      "exists": true
-    },
-    {
-      "object": "TABL",
-      "obj_name": "SCX_SRCPOS",
-      "exists": true
-    },
-    {
-      "object": "TABL",
-      "obj_name": "SCX_T100KEY",
       "exists": true
     },
     {
@@ -13580,6 +15750,11 @@
     {
       "object": "TTYP",
       "obj_name": "ABP_BEHV_RETRIEVALS_TAB",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "ABP_ENTITY_NAME_TAB",
       "exists": false
     },
     {
@@ -13799,8 +15974,8 @@
     },
     {
       "object": "TTYP",
-      "obj_name": "LDBCB_TT",
-      "exists": true
+      "obj_name": "HTTP_STATUS_CODES",
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -13820,11 +15995,6 @@
     {
       "object": "TTYP",
       "obj_name": "ROLE_AUTHORIZATIONS",
-      "exists": true
-    },
-    {
-      "object": "TTYP",
-      "obj_name": "STRINGTAB",
       "exists": true
     },
     {
@@ -13924,7 +16094,17 @@
     },
     {
       "object": "TTYP",
+      "obj_name": "SXCO_T_AO_SUBCOMPONENT_NAMES",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
       "obj_name": "SXCO_T_AO_S_EXCEPTIONS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_AO_S_PARAMETERS",
       "exists": false
     },
     {
@@ -14099,6 +16279,11 @@
     },
     {
       "object": "TTYP",
+      "obj_name": "SXCO_T_CDS_OBJECT_NAMES",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
       "obj_name": "SXCO_T_CDS_PARAMETERS",
       "exists": false
     },
@@ -14115,6 +16300,11 @@
     {
       "object": "TTYP",
       "obj_name": "SXCO_T_CLAS_C_METHODS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_CLAS_METHOD_NAMES",
       "exists": false
     },
     {
@@ -14145,6 +16335,36 @@
     {
       "object": "TTYP",
       "obj_name": "SXCO_T_CP_TRANSPORTS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_CP_TR_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_CP_TR_KEY_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_CP_TR_KE_TK_COMPONENTS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_CP_TR_OBJECT_ENTRIES",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_CP_TR_R3TR_OBJECT_ENTRS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_CP_TR_R3TR_TABU_OBJ_ENS",
       "exists": false
     },
     {
@@ -14314,6 +16534,21 @@
     },
     {
       "object": "TTYP",
+      "obj_name": "SXCO_T_IAM_BC_TEXTS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_IAM_BC_TEXT_ATTRIBUTES",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_IAM_BUSINESS_CATALOGS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
       "obj_name": "SXCO_T_INTF_C_METHODS",
       "exists": false
     },
@@ -14424,6 +16659,11 @@
     },
     {
       "object": "TTYP",
+      "obj_name": "SXCO_T_SRVD_OBJECT_NAMES",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
       "obj_name": "SXCO_T_STR_COMPONENTS",
       "exists": false
     },
@@ -14450,6 +16690,11 @@
     {
       "object": "TTYP",
       "obj_name": "SXCO_T_TRANSFORMATIONS",
+      "exists": false
+    },
+    {
+      "object": "TTYP",
+      "obj_name": "SXCO_T_TR_ENTRY_FILTERS",
       "exists": false
     },
     {
@@ -14484,7 +16729,7 @@
     },
     {
       "object": "TTYP",
-      "obj_name": "XSTRINGTAB",
+      "obj_name": "TIHTTPURLS2",
       "exists": true
     },
     {
