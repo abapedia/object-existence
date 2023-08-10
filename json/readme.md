@@ -2,8 +2,8 @@
 
 ## Input for Program
 
-`steampunk_xxyy.json`
+abapedia Repository Name: `steampunk-YYMM-api`
 
 ## Output of Program
 
-`on_prem_<release>.json`
+Object List in JSON Format: `on_prem_<release>.json`

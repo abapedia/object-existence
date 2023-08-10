@@ -1,17 +1,17 @@
 {
   "system": {
-    "timestamp": "2023-08-09T20:12:04Z",
+    "timestamp": 20230810013431,
     "components": [
       {
         "component": "SAP_ABA",
-        "release": "75E",
-        "extrelease": "0007",
+        "release": "731",
+        "extrelease": "0028",
         "comp_type": ""
       },
       {
         "component": "SAP_BASIS",
-        "release": "754",
-        "extrelease": "0007",
+        "release": "731",
+        "extrelease": "0028",
         "comp_type": ""
       }
     ]
@@ -35,12 +35,12 @@
     {
       "object": "CLAS",
       "obj_name": "/IWBEP/CX_CP_REMOTE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "/IWBEP/CX_GATEWAY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -50,12 +50,12 @@
     {
       "object": "CLAS",
       "obj_name": "/IWXBE/CX_EXCEPTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "/UI2/CL_JSON",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -70,7 +70,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_API_STATE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -80,27 +80,27 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_BEHAVIOR_HANDLER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_BEHAVIOR_SAVER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_BEHV",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_BEHV_AUX",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_BEHV_TEST_ENVIRONMENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -120,17 +120,17 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_CONTEXT_INFO",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_CONV_CODEPAGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_CORRESPONDING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -200,7 +200,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_ENUMDESCR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -260,7 +260,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_LOCK_OBJECT_FACTORY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -305,7 +305,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_PARALLEL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -335,7 +335,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_RANDOM_INT8",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -520,7 +520,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_ABAP_UTCLONG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -540,12 +540,12 @@
     {
       "object": "CLAS",
       "obj_name": "CL_APJ_DT_CREATE_CONTENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_APJ_JT_CHECK_BASE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -555,7 +555,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_APJ_SCP_TOOLS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -695,27 +695,27 @@
     {
       "object": "CLAS",
       "obj_name": "CL_CDS_ENTITY_INSPECTOR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_CDS_TEST_DATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_CDS_TEST_DATA_FOR_CURR_CONV",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_CDS_TEST_DATA_FOR_UNIT_CONV",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_CDS_TEST_ENVIRONMENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -735,7 +735,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_CHDO_WRITE_TOOLS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -850,7 +850,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_FDT_CP_UTILITY_API",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -920,12 +920,12 @@
     {
       "object": "CLAS",
       "obj_name": "CL_IXML_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_IXML_XPATH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -940,27 +940,27 @@
     {
       "object": "CLAS",
       "obj_name": "CL_NUMBERRANGE_INTERVALS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_NUMBERRANGE_OBJECTS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_NUMBERRANGE_RUNTIME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_OSQL_TEST_DATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_OSQL_TEST_ENVIRONMENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -990,7 +990,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_RFC_DESTINATION_PROVIDER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -1010,12 +1010,12 @@
     {
       "object": "CLAS",
       "obj_name": "CL_SCAL_API",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CL_SCAL_UTILS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -1025,7 +1025,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_SWF_CPWF_API_FACTORY_A4C",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -1055,7 +1055,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_UOM_CONVERSION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -1085,7 +1085,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_WEB_HTTP_UTILITY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -1360,7 +1360,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_BOOLEAN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2175,7 +2175,7 @@
     {
       "object": "CLAS",
       "obj_name": "CL_XCO_MESSAGE_TYPE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2515,7 +2515,7 @@
     {
       "object": "CLAS",
       "obj_name": "CM_APJ_BASE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2545,7 +2545,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ABAP_API_STATE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2555,7 +2555,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ABAP_CONTEXT_INFO_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2600,7 +2600,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ABAP_FOREIGN_LOCK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2615,7 +2615,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ABAP_LOCK_FAILURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2630,7 +2630,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ABAP_NOT_A_PROGRAM",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2665,22 +2665,22 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ABAP_UTCLONG_INVALID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_ACO_APPLICATION_EXCEPTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_ACO_COMMUNICATION_FAILURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_ACO_SYSTEM_FAILURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2695,32 +2695,32 @@
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_CREATION_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_DBPROC_CREATE_FAILED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_EXECUTION_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_EXECUTION_FAILED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_VERSION_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_AMDP_VERSION_MISMATCH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2850,12 +2850,12 @@
     {
       "object": "CLAS",
       "obj_name": "CX_BLE_DYNAMIC_TABLE_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_BLE_RUNTIME_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2875,7 +2875,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CHDO_GENERATION_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2885,7 +2885,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CHDO_WRITE_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2940,7 +2940,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_OAUTH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2975,7 +2975,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CMIS_UNAUTHORIZED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -2995,7 +2995,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_CORR_DYN_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3100,17 +3100,17 @@
     {
       "object": "CLAS",
       "obj_name": "CX_NR_OBJECT_NOT_FOUND",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_NR_SUBOBJECT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_NUMBER_RANGES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3130,12 +3130,12 @@
     {
       "object": "CLAS",
       "obj_name": "CX_RAP_QUERY_FILTER_NO_RANGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_RAP_QUERY_PROVIDER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3145,7 +3145,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_RAP_QUERY_RESPONSE_SET_TWIC",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3160,7 +3160,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_RFC_DEST_PROVIDER_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3185,7 +3185,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SADL_EXIT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3195,7 +3195,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SCAL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3260,7 +3260,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_ST_DYNAMIC_CALL_ST_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3340,12 +3340,12 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SWF_CPWF_API",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_SWF_CPWF_CALLBACK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3465,7 +3465,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_CONVERSION_NOT_SUPPORTED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3485,7 +3485,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_CONVERSION_NO_ENUM_VALUE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3530,7 +3530,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_CONVERSION_UNKNOWN_CURR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3540,7 +3540,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_CONVERSION_UNKNOWN_UNIT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3645,7 +3645,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_ENUM_CREATION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3705,7 +3705,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_ITAB_LINE_NOT_FOUND",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3740,7 +3740,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_NO_REFERENCE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3750,7 +3750,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_OPEN_SQL_DATA_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3840,22 +3840,22 @@
     {
       "object": "CLAS",
       "obj_name": "CX_SY_SQL_REDIRECT_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_SY_SQL_REPLACEMENT_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_SY_SQL_SHARING_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_SY_SQL_UNSUPPORTED_FEATURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -3985,17 +3985,17 @@
     {
       "object": "CLAS",
       "obj_name": "CX_WEB_HTTP_CONVERSION_FAILED",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_WEB_MESSAGE_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
       "obj_name": "CX_WS_PROTOCOL_ERROR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -4030,7 +4030,7 @@
     {
       "object": "CLAS",
       "obj_name": "CX_XCO_RUNTIME_EXCEPTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "CLAS",
@@ -4790,12 +4790,12 @@
     {
       "object": "DDLS",
       "obj_name": "I_BPUSREXTERNALID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_BPUSRROLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4805,7 +4805,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_BUPAIDENTIFICATIONTYPE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -4945,12 +4945,12 @@
     {
       "object": "DDLS",
       "obj_name": "I_BUSINESSUSERBASIC",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_BUSINESSUSERVH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5145,17 +5145,17 @@
     {
       "object": "DDLS",
       "obj_name": "I_COUNTRY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_COUNTRYTEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_COUNTRYVH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5165,17 +5165,17 @@
     {
       "object": "DDLS",
       "obj_name": "I_CURRENCY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_CURRENCYSTDVH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_CURRENCYTEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5205,22 +5205,22 @@
     {
       "object": "DDLS",
       "obj_name": "I_EXCHANGERATEFACTORSRAWDATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_EXCHANGERATERAWDATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_EXCHANGERATESPREADRAWDATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_EXCHANGERATETYPE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5230,12 +5230,12 @@
     {
       "object": "DDLS",
       "obj_name": "I_EXCHANGERATETYPETEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_EXCHRATEQTANTYPERAWDATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5290,7 +5290,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_FISCALPERIODRAWDATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5300,7 +5300,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_FISCALPERIODTEXTRAWDATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5365,12 +5365,12 @@
     {
       "object": "DDLS",
       "obj_name": "I_FISCALYEARVARIANT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_FISCALYEARVARIANTTEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5440,12 +5440,12 @@
     {
       "object": "DDLS",
       "obj_name": "I_LANGUAGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_LANGUAGETEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5600,7 +5600,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_SHORTENEDFISCALYEAR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5685,32 +5685,32 @@
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASURECOMMERCIALNAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASUREDIMENSION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASUREDIMENSIONTEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASUREISOCODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASUREISOCODETEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5720,17 +5720,17 @@
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASURETECHNICALNAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_UNITOFMEASURETEXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
       "obj_name": "I_USER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5745,7 +5745,7 @@
     {
       "object": "DDLS",
       "obj_name": "I_WORKPLACEADDRESS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DDLS",
@@ -5755,7 +5755,7 @@
     {
       "object": "DOMA",
       "obj_name": "ABAP_BOOLEAN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DOMA",
@@ -5870,7 +5870,7 @@
     {
       "object": "DOMA",
       "obj_name": "XSDCURRCODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DOMA",
@@ -5940,17 +5940,17 @@
     {
       "object": "DOMA",
       "obj_name": "XSDUNITCODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DOMA",
       "obj_name": "XSDUUID_BASE32",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DOMA",
       "obj_name": "XSDUUID_BASE64",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DOMA",
@@ -5970,7 +5970,7 @@
     {
       "object": "DTEL",
       "obj_name": "ABAP_BOOLEAN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -5985,57 +5985,57 @@
     {
       "object": "DTEL",
       "obj_name": "ABP_ACTION_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_ASSOCIATION_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_CID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_DRAFT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_FEATURE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_FLAG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_KIND",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_OP_MODIFY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_OP_READ",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_PID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_BEHV_TYPEKIND",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6065,17 +6065,17 @@
     {
       "object": "DTEL",
       "obj_name": "ABP_ELEMENT_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_ENTITY_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "ABP_FIELD_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6130,7 +6130,7 @@
     {
       "object": "DTEL",
       "obj_name": "ABP_ROOT_ENTITY_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6625,7 +6625,7 @@
     {
       "object": "DTEL",
       "obj_name": "CONFIG_DEPRECATION_CODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6640,12 +6640,12 @@
     {
       "object": "DTEL",
       "obj_name": "D16N",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "D34N",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6655,7 +6655,7 @@
     {
       "object": "DTEL",
       "obj_name": "DATN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6745,17 +6745,17 @@
     {
       "object": "DTEL",
       "obj_name": "FCO_SRVDOC_ID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "FCO_SRVDOC_ITEM_ID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "FCO_SRVDOC_TYPE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6810,12 +6810,12 @@
     {
       "object": "DTEL",
       "obj_name": "FINS_FISCALPERIOD",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "FINS_FYEARPERIOD",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -6840,7 +6840,7 @@
     {
       "object": "DTEL",
       "obj_name": "GEOM_EWKB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7160,12 +7160,12 @@
     {
       "object": "DTEL",
       "obj_name": "SDRAFT_CONSISTENCY_STATUS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "SDRAFT_UUID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7210,7 +7210,7 @@
     {
       "object": "DTEL",
       "obj_name": "SVC_INSTANCE_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7220,12 +7220,12 @@
     {
       "object": "DTEL",
       "obj_name": "SWF_CPWF_CONSUMER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "SWF_CPWF_HANDLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7440,7 +7440,7 @@
     {
       "object": "DTEL",
       "obj_name": "SXCO_USER_NAME",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7505,7 +7505,7 @@
     {
       "object": "DTEL",
       "obj_name": "SYSUUID_C36",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7560,7 +7560,7 @@
     {
       "object": "DTEL",
       "obj_name": "TIMN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7600,7 +7600,7 @@
     {
       "object": "DTEL",
       "obj_name": "UTCL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7640,7 +7640,7 @@
     {
       "object": "DTEL",
       "obj_name": "WRBTR_CS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7660,7 +7660,7 @@
     {
       "object": "DTEL",
       "obj_name": "XSDCURRCODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7730,17 +7730,17 @@
     {
       "object": "DTEL",
       "obj_name": "XSDUNITCODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "XSDUUID_BASE32",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
       "obj_name": "XSDUUID_BASE64",
-      "exists": true
+      "exists": false
     },
     {
       "object": "DTEL",
@@ -7755,172 +7755,172 @@
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_CLIENT_PROXY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_DATA_DESC_NODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_DATA_DESC_NODE_L",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_EXPAND_NODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_FILTER_FACTORY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_FILTER_NODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_ACTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_BATCH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_BATCH_OP",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_CHANGESET",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_CREATE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_DELETE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_FUNCTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_READ",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_READ_01",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_READ_DLTA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_READ_LIST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_UPDATE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_REQUEST_UPDATE_L",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESOURCE_ACTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESOURCE_ENTITY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESOURCE_ENTITY01",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESOURCE_FUNCTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESOURCE_LIST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_ACTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_CREATE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_FUNCTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_READ",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_READ_01",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_READ_LST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_UPDATE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RESPONSE_UPDATE_L",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_RUNTIME_TYPES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "/IWBEP/IF_CP_SEARCH_NODE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7960,22 +7960,22 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_API_STATE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_BEHAVIOR_TESTDOUBLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_BEHV",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_BEHV_MESSAGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -7990,12 +7990,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_CONV_IN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_CONV_OUT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8010,7 +8010,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_DATA_TYPE_HANDLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8050,7 +8050,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_LOCK_OBJECT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8060,7 +8060,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_PARALLEL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8115,7 +8115,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_ABAP_UNIT_CONSTANT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8135,7 +8135,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_ACO_PROXY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8145,7 +8145,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_AMDP_MARKER_HDB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8155,27 +8155,27 @@
     {
       "object": "INTF",
       "obj_name": "IF_APJ_DT_EXEC_OBJECT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_APJ_JT_CHECK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_APJ_RT_EXEC_OBJECT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_APJ_RT_VALUE_HELP_EXIT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_APJ_TYPES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8320,12 +8320,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_BLE_DT_ROW_ITERATOR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_BLE_DYNAMIC_TABLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8515,42 +8515,42 @@
     {
       "object": "INTF",
       "obj_name": "IF_CDS_ACCESS_CONTROL_DATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_CDS_ACCESS_CONTROL_DOUBLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_CDS_ENTITY_INSPECTOR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_CDS_NULL_VALUES_CONFIG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_CDS_PARAMETER_VALUES_CONFIG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_CDS_STUB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_CDS_TEST_DATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_CDS_TEST_ENVIRONMENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8600,7 +8600,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_CMIS_CLIENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -8935,7 +8935,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_HTTP_SERVICE_EXTENSION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9005,7 +9005,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_IXML_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9060,7 +9060,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_IXML_ISTREAM_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9110,17 +9110,17 @@
     {
       "object": "INTF",
       "obj_name": "IF_IXML_OSTREAM_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_IXML_PARSER_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_IXML_PARSE_ERROR_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9140,17 +9140,17 @@
     {
       "object": "INTF",
       "obj_name": "IF_IXML_RENDERER_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_IXML_STREAM_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_IXML_STREAM_FACTORY_CORE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9165,7 +9165,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_IXML_XPATH",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9205,42 +9205,42 @@
     {
       "object": "INTF",
       "obj_name": "IF_OO_ADT_CLASSRUN",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_OO_ADT_CLASSRUN_OUT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_OSQL_DOUBLE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_OSQL_NULL_VALUES_CONFIG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_OSQL_PARAM_VALUES_CONFIG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_OSQL_STUB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_OSQL_TEST_DATA",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_OSQL_TEST_ENVIRONMENT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9285,12 +9285,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_RAP_QUERY_AGGREGATION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_RAP_QUERY_FILTER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9310,27 +9310,27 @@
     {
       "object": "INTF",
       "obj_name": "IF_RAP_QUERY_PAGING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_RAP_QUERY_PROVIDER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_RAP_QUERY_REQUEST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_RAP_QUERY_RESPONSE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_RFC_DEST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9340,7 +9340,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_RSRTS_CDS_READ",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9350,12 +9350,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_SADL_EXIT_CALC_ELEMENT_READ",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SADL_EXIT_SORT_TRANSFORM",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9390,12 +9390,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_SLIN_BADI_DBTAB_ACCESS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SLIN_GOV_DBTAB_ACCESS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9405,17 +9405,17 @@
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CPWF_API",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CPWF_CALLBACK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CPWF_CAPI",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9430,22 +9430,22 @@
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CPWF_CAPI_WF_INST_CTXT",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SWF_CP_JSON",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SWF_FLEX_IFS_CONDITION_DEF",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_SWF_FLEX_IFS_CONDITION_EVAL",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9525,7 +9525,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_T100_DYN_MSG",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9540,22 +9540,22 @@
     {
       "object": "INTF",
       "obj_name": "IF_WEB_HTTP_HEADER",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_WEB_HTTP_REQUEST",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_WEB_HTTP_RESPONSE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_WEB_HTTP_STATUS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -9585,7 +9585,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_ABAP_REPOSITORY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -12920,12 +12920,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_DP_ACTION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_DP_ACTION_DECORATOR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -12940,7 +12940,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_DP_CHECK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -12950,7 +12950,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_DP_LOCK",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -14275,12 +14275,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_ITERATOR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_JSON_TRANSFORMATION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -14295,7 +14295,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_LANGUAGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -14335,7 +14335,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_MESSAGE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -14610,12 +14610,12 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_STRING",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
       "obj_name": "IF_XCO_STRINGS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -14640,7 +14640,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_STRING_ITERATOR",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -14850,7 +14850,7 @@
     {
       "object": "INTF",
       "obj_name": "IF_XCO_UUID",
-      "exists": true
+      "exists": false
     },
     {
       "object": "INTF",
@@ -15080,17 +15080,17 @@
     {
       "object": "TABL",
       "obj_name": "ABP_BEHV_AUTHORIZATION",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "ABP_BEHV_CHANGES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "ABP_BEHV_FEATURES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15100,7 +15100,7 @@
     {
       "object": "TABL",
       "obj_name": "ABP_BEHV_LOCKS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15115,12 +15115,12 @@
     {
       "object": "TABL",
       "obj_name": "ABP_BEHV_RESPONSE",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
       "obj_name": "ABP_BEHV_RETRIEVALS",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15440,7 +15440,7 @@
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CLIENT_PROPERTY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15450,7 +15450,7 @@
     {
       "object": "TABL",
       "obj_name": "CMIS_S_CONTENT_RAW",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15490,7 +15490,7 @@
     {
       "object": "TABL",
       "obj_name": "CMIS_S_KEY_VALUES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15650,7 +15650,7 @@
     {
       "object": "TABL",
       "obj_name": "SWW_SONT_KEY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15690,7 +15690,7 @@
     {
       "object": "TABL",
       "obj_name": "SYCH_BDL_DRAFT_ADMIN_INC",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TABL",
@@ -15710,17 +15710,17 @@
     {
       "object": "TTYP",
       "obj_name": "ABP_BEHV_AUTHORIZATION_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "ABP_BEHV_CHANGES_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "ABP_BEHV_FEATURES_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -15730,7 +15730,7 @@
     {
       "object": "TTYP",
       "obj_name": "ABP_BEHV_LOCKS_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -15745,22 +15745,22 @@
     {
       "object": "TTYP",
       "obj_name": "ABP_BEHV_RESPONSE_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "ABP_BEHV_RETRIEVALS_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "ABP_ENTITY_NAME_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
       "obj_name": "ABP_FIELD_NAME_TAB",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -15830,7 +15830,7 @@
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_CLIENT_PROPERTY",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -15850,7 +15850,7 @@
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_EXTENDED_FEATURES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -15870,7 +15870,7 @@
     {
       "object": "TTYP",
       "obj_name": "CMIS_T_KEY_VALUES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
@@ -16585,7 +16585,7 @@
     {
       "object": "TTYP",
       "obj_name": "SXCO_T_MESSAGES",
-      "exists": true
+      "exists": false
     },
     {
       "object": "TTYP",
