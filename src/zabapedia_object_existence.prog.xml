@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZABAPPEDIA_OBJECT_EXISTENCE</NAME>
+    <NAME>ZABAPEDIA_OBJECT_EXISTENCE</NAME>
     <SUBC>1</SUBC>
     <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
@@ -12,14 +12,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>abapPedia Object Existence</ENTRY>
-     <LENGTH>32</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_FILE_I</KEY>
-     <ENTRY>Input File Name</ENTRY>
-     <LENGTH>23</LENGTH>
+     <ENTRY>abapedia Object Existence</ENTRY>
+     <LENGTH>26</LENGTH>
     </item>
     <item>
      <ID>S</ID>
@@ -32,6 +26,12 @@
      <KEY>P_PATH</KEY>
      <ENTRY>Folder</ENTRY>
      <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_REPO</KEY>
+     <ENTRY>abapedia Repository</ENTRY>
+     <LENGTH>27</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
