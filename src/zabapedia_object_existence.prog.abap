@@ -96,7 +96,7 @@ CLASS lcl_check IMPLEMENTATION.
 
     lv_url = |https://raw.githubusercontent.com/abapedia/{ iv_repo }/main/src/_status.json|.
 
-    li_agent = zcl_abapgit_factory=>get_http_agent( ).
+    li_agent = zcl_abapgit_http_agent=>create( ).
 
     TRY.
         li_response = li_agent->request( lv_url ).
